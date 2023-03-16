@@ -1,0 +1,73 @@
+.p-cascadeselect {
+    .p-inputtext, .p-cascadeselect-trigger {
+        background-image: none;
+        background: transparent;
+    }
+
+    .p-inputtext {
+        border: 0 none;
+    }
+
+    &:not(.p-disabled).p-focus {
+        box-shadow: inset 0 0 0 1px $inputFocusBorderColor,inset 0 0 0 1px $inputFocusBorderColor,inset 0 0 0 1px $inputFocusBorderColor,inset 0 0 0 1px $inputFocusBorderColor;
+    }
+}
+
+.p-cascadeselect-item {
+    .p-ink {
+        background-color: rgba($primaryColor, .16);
+    }
+}
+
+.p-input-filled {
+    .p-cascadeselect {
+        @include filled-input-wrapper();
+
+        .p-inputtext {
+            border: 0 none;
+        }
+
+        .p-cascadeselect-label {
+          &:hover {
+              background-image: none;
+              background: transparent;
+          }
+      }
+    }
+
+    p-cascadeselect.ng-dirty.ng-invalid {
+        .p-cascadeselect {
+            @include invalid-filled-input-wrapper();
+        }
+    }
+}
+
+.p-input-filled {
+  .p-float-label {
+      .p-cascadeselect {
+          .p-cascadeselect-label {
+              @include filled-input-float-label();
+          }
+      }
+
+      .p-inputwrapper-filled {
+          .p-cascadeselect {
+              .p-cascadeselect-label {
+                  @include filled-input-float-label();
+              }
+          }
+      }
+  }
+
+  .p-cascadeselect.p-invalid {
+      @include invalid-filled-input-wrapper();
+  }
+}
+
+p-cascadeselect.ng-dirty.ng-invalid {
+    .p-cascadeselect {
+        &:not(.p-disabled).p-focus {
+            box-shadow: inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor;
+        }
+    }
+}

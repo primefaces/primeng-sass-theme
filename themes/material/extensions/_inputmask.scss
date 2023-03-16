@@ -1,0 +1,15 @@
+p-inputmask.ng-dirty.ng-invalid {
+    .p-inputtext {
+        &:enabled:focus {
+            box-shadow: inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor,inset 0 0 0 1px $inputErrorBorderColor;
+        }
+    }
+}
+
+.p-input-filled {
+    p-inputmask.ng-dirty.ng-invalid {
+        .p-inputtext {
+            @include invalid-filled-input();
+        }
+    }
+}

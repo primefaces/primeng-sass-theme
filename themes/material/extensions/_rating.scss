@@ -1,0 +1,35 @@
+.p-rating {
+    .p-rating-icon {
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+
+        &:focus {
+            background: rgba($primaryColor, .12);
+        }
+
+        &.p-rating-cancel {
+            &:focus {
+                background: rgba($ratingCancelIconColor, .12);
+            }
+        }
+    }
+
+    &:not(.p-disabled):not(.p-readonly) {
+        .p-rating-icon {
+            &:hover {
+                background-color: rgba(0,0,0,.04);
+            }
+
+            &.p-rating-cancel {
+                &:hover {
+                    background: rgba($ratingCancelIconColor, .04);
+                }
+            }
+        }
+    }
+}

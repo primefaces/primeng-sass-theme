@@ -1,0 +1,9 @@
+.p-timeline {
+    &.p-timeline-vertical .p-timeline-event-connector {
+        margin: .5rem 0;
+    }
+
+    &.p-timeline-horizontal .p-timeline-event-connector {
+        margin: 0 .5rem;
+    }
+}

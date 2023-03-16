@@ -1,2 +1,1 @@
-# primeng-sass-theme
-PrimeNG Theming with SASS
+# PrimeNG Theming with SASS
