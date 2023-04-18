@@ -100,6 +100,11 @@
                 .p-treetable-toggler {
                     @include action-icon();
                     margin-right: $inlineSpacing;
+
+                    &.p-icon {
+                        width: $loadingIconFontSize;
+                        height: $loadingIconFontSize;
+                    }
                 }
 
                 p-treetablecheckbox .p-checkbox {
@@ -156,6 +161,11 @@
 
     .p-treetable-loading-icon {
         font-size: $loadingIconFontSize;
+
+        &.p-icon {
+            width: $loadingIconFontSize;
+            height: $loadingIconFontSize;
+        }
     }
 
     &.p-treetable-gridlines {
