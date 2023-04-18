@@ -48,6 +48,11 @@
         font-size: $menuitemSubmenuIconFontSize;
     }
 
+    .p-icon {
+        width: $menuitemSubmenuIconFontSize;
+        height: $menuitemSubmenuIconFontSize;
+    }
+
     .p-slidemenu-backward {
         padding: $menuitemPadding;
 	    color: $menuitemTextColor;
