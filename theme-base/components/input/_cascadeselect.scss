@@ -77,6 +77,11 @@
             .p-cascadeselect-group-icon {
                 font-size: $menuitemSubmenuIconFontSize;
             }
+
+            .p-icon {
+                width: $menuitemSubmenuIconFontSize;
+                height: $menuitemSubmenuIconFontSize;
+            }
         }
     }
 }
