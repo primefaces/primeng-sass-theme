@@ -54,6 +54,11 @@
         font-size: $menuitemSubmenuIconFontSize;
     }
 
+    .p-icon {
+        width: $menuitemSubmenuIconFontSize;
+        height: $menuitemSubmenuIconFontSize;
+    }
+
     .p-menuitem-badge {
         @include menuitem-badge();
     }
