@@ -18,6 +18,11 @@
                 font-size: $toastIconFontSize;
             }
 
+            .p-icon:not(.p-toast-icon-close-icon) {
+                width: $toastIconFontSize;
+                height: $toastIconFontSize;
+            }
+
             .p-toast-summary {
                 font-weight: $toastTitleFontWeight;
             }

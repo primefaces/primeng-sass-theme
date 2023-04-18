@@ -1,4 +1,6 @@
 .p-rating {
+    gap: $inlineSpacing;
+    
     .p-rating-icon {
         color: $ratingStarIconOffColor;
         margin-left: $inlineSpacing;

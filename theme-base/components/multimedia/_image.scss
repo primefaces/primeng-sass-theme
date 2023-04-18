@@ -41,4 +41,9 @@
     i {
         font-size: $imagePreviewActionIconFontSize;
     }
+
+    .p-icon {
+        width: $imagePreviewActionIconFontSize;
+        height: $imagePreviewActionIconFontSize;
+    }
 }
