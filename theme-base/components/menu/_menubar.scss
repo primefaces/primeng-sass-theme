@@ -52,6 +52,11 @@
             font-size: $menuitemSubmenuIconFontSize;
         }
 
+        .p-icon {
+            width: $menuitemSubmenuIconFontSize;
+            height: $menuitemSubmenuIconFontSize;
+        }
+
         .p-menuitem {
             margin: $verticalMenuitemMargin;
     

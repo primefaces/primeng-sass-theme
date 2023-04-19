@@ -42,6 +42,7 @@
     color: $inputErrorBorderColor;
 }
 
+.p-input-icon-left > .p-icon:first-of-type,
 .p-input-icon-left > i:first-of-type {
     left: nth($inputPadding, 2);
     color: $inputIconColor;
@@ -55,7 +56,8 @@
     left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
 
-.p-input-icon-right > i:last-of-type  {
+.p-input-icon-right > .p-icon:last-of-type,
+.p-input-icon-right > i:last-of-type {
     right: nth($inputPadding, 2);
     color: $inputIconColor;
 }

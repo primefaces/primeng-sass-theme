@@ -92,6 +92,11 @@
         margin-right: $inlineSpacing;
     }
 
+    .p-icon {
+        width: $messageIconFontSize;
+        height: $messageIconFontSize;
+    }
+
     .p-message-summary {
         font-weight: 700;
     }

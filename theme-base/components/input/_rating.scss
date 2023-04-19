@@ -1,9 +1,16 @@
 .p-rating {
+    gap: $inlineSpacing;
+    
     .p-rating-icon {
         color: $ratingStarIconOffColor;
         margin-left: $inlineSpacing;
         transition: $formElementTransition;
         font-size: $ratingIconFontSize;
+
+        &.p-icon {
+            width: $ratingIconFontSize;
+            height: $ratingIconFontSize;   
+        }
 
         &.p-rating-cancel {
             color: $ratingCancelIconColor;
@@ -17,7 +24,7 @@
             margin-left: 0;
         }
 
-        &.pi-star-fill {
+        &.p-rating-icon-active {
             color: $ratingStarIconOnColor;
         }
     }
