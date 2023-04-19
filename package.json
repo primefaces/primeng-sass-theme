@@ -4,22 +4,30 @@
     "description": "PrimeNG Sass Theme",
     "homepage": "https://primeng.org/",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
+        "type": "git",
+        "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
     },
     "keywords": [
-      "primeng",
-      "angular",
-      "ui framework",
-      "component framework",
-      "ui library",
-      "component library",
-      "material",
-      "bootstrap"
+        "primeng",
+        "angular",
+        "ui framework",
+        "component framework",
+        "ui library",
+        "component library",
+        "material",
+        "bootstrap"
     ],
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+        "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+    },
+    "scripts": {
+      "build": "sass --update themes/mytheme/theme.scss:theme.css  --no-source-map",
+      "build-min": "sass --update themes/mytheme/theme.scss:theme.min.css --style=compressed --no-source-map",
+      "watch": "sass --watch themes/mytheme/theme.scss:theme.css --no-source-map",
+      "watch-min": "sass --watch themes/mytheme/theme.scss:theme.min.css --style=compressed --no-source-map"
+    },
+    "devDependencies": {
+        "sass": "^1.62.0"
     }
-  }
-  
+}
