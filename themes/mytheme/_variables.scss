@@ -1,71 +1,81 @@
 // Theme Specific Variables
-$primaryColor: #2196F3;
-$primaryDarkColor: #1E88E5;
-$primaryDarkerColor: #1976D2;
+$primaryColor: #1446ce;
+$primaryDarkColor: var(--primary-600);
+$primaryDarkerColor: var(--primary-700);
 $primaryTextColor: #ffffff;
 
+// Custom colors
+$secondaryColor: #98abe3;
+$tertiaryColor: #ffba5d;
+$neutralColor: #555555;
+
 $colors: (
-    "blue": #2196F3,
-    "green": #4caf50,
-    "yellow": #FBC02D,
-    "cyan": #00BCD4,
-    "pink": #E91E63,
-    "indigo": #3F51B5,
-    "teal": #009688,
-    "orange": #F57C00,
-    "bluegray": #607D8B,
-    "purple": #9C27B0,
-    "red": #FF4032,
-    "primary": $primaryColor
+  "blue": #2196f3,
+  "green": #4caf50,
+  "yellow": #fbc02d,
+  "cyan": #00bcd4,
+  "pink": #e91e63,
+  "indigo": #3f51b5,
+  "teal": #009688,
+  "orange": #f57c00,
+  "bluegray": #607d8b,
+  "purple": #9c27b0,
+  "red": #ff4032,
+  "primary": $primaryColor,
+  "secondary": $secondaryColor,
+  "tertiary": $tertiaryColor,
+  "neutral": $neutralColor,
 );
 
 // Mandatory Designer Variables
-@import './variables/general';
-@import './variables/form';
-@import './variables/button';
-@import './variables/panel';
-@import './variables/_data';
-@import './variables/_overlay';
-@import './variables/_message';
-@import './variables/_menu';
-@import './variables/_media';
-@import './variables/_misc';
+@import "./variables/general";
+@import "./variables/form";
+@import "./variables/button";
+@import "./variables/panel";
+@import "./variables/_data";
+@import "./variables/_overlay";
+@import "./variables/_message";
+@import "./variables/_menu";
+@import "./variables/_media";
+@import "./variables/_misc";
 
 :root {
-    --surface-a:#ffffff;
-    --surface-b:#f8f9fa;
-    --surface-c:#e9ecef;
-    --surface-d:#dee2e6;
-    --surface-e:#ffffff;
-    --surface-f:#ffffff;
-    --text-color:#495057;
-    --text-color-secondary:#6c757d;
-    --primary-color:#2196F3;
-    --primary-color-text:#ffffff;
-    --font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --surface-0: #ffffff;
-    --surface-50: #FAFAFA;
-    --surface-100: #F5F5F5;
-    --surface-200: #EEEEEE;
-    --surface-300: #E0E0E0;
-    --surface-400: #BDBDBD;
-    --surface-500: #9E9E9E;
-    --surface-600: #757575;
-    --surface-700: #616161;
-    --surface-800: #424242;
-    --surface-900: #212121;
-    --content-padding:#{$panelContentPadding};
-    --inline-spacing:#{$inlineSpacing};
-    --border-radius:#{$borderRadius};
-    --surface-ground:#f8f9fa;
-    --surface-section:#ffffff;
-    --surface-card:#ffffff;
-    --surface-overlay:#ffffff;
-    --surface-border:#dee2e6;
-    --surface-hover:#e9ecef;
-    --maskbg: #{$maskBg};
-    --highlight-bg: #{$highlightBg};
-    --highlight-text-color: #{$highlightTextColor};
-    --focus-ring: #{$focusShadow};
-    color-scheme: light;
+  --surface-a: #ffffff;
+  --surface-b: #f8f9fa;
+  --surface-c: #e9ecef;
+  --surface-d: #dee2e6;
+  --surface-e: #ffffff;
+  --surface-f: #ffffff;
+  --text-color: #495057;
+  --text-color-secondary: #6c757d;
+  --primary-color: #{$primaryColor};
+  --primary-color-text: #{$primaryTextColor};
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --surface-0: #ffffff;
+  --surface-50: #fafafa;
+  --surface-100: #f5f5f5;
+  --surface-200: #eeeeee;
+  --surface-300: #e0e0e0;
+  --surface-400: #bdbdbd;
+  --surface-500: #9e9e9e;
+  --surface-600: #757575;
+  --surface-700: #616161;
+  --surface-800: #424242;
+  --surface-900: #212121;
+  --content-padding: #{$panelContentPadding};
+  --inline-spacing: #{$inlineSpacing};
+  --border-radius: #{$borderRadius};
+  --surface-ground: #f8f9fa;
+  --surface-section: #ffffff;
+  --surface-card: #ffffff;
+  --surface-overlay: #ffffff;
+  --surface-border: #dee2e6;
+  --surface-hover: #e9ecef;
+  --maskbg: #{$maskBg};
+  --highlight-bg: #{$highlightBg};
+  --highlight-text-color: #{$highlightTextColor};
+  --focus-ring: #{$focusShadow};
+  color-scheme: light;
 }
