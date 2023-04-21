@@ -12,9 +12,11 @@
             font-size: $galleriaCloseIconFontSize;
         }
 
-        .p-icon {
-            width: $galleriaCloseIconFontSize;
-            height: $galleriaCloseIconFontSize;
+        .p-icon-wrapper {
+            .p-icon {
+                width: $galleriaCloseIconFontSize;
+                height: $galleriaCloseIconFontSize;
+            }
         }
 
         &:hover {
@@ -37,9 +39,11 @@
             font-size: $galleriaItemNavigatorFontSize;
         }
 
-        .p-icon {
-            width: $galleriaCloseIconFontSize;
-            height: $galleriaCloseIconFontSize;
+        .p-icon-wrapper {
+            .p-icon {
+                width: $galleriaCloseIconFontSize;
+                height: $galleriaCloseIconFontSize;
+            }
         }
 
         &:not(.p-disabled) {
