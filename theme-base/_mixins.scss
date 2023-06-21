@@ -188,6 +188,12 @@
     }
 }
 
+@mixin focused-inset() {
+	outline: $focusOutline;
+    outline-offset: $focusOutlineOffset;
+    box-shadow: inset $focusShadow;
+}
+
 @mixin menuitem-badge {
     background: $badgeBg;
     color: $badgeTextColor;
