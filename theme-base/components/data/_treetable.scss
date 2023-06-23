@@ -212,7 +212,7 @@
 
     &.p-treetable-sm {
         .p-treetable-header {
-            @include scaledPadding($tableHeaderPadding, $scaleSM);
+            @include scaledPadding($tableHeaderPadding, $tableScaleSM);
         }
 
         .p-treetable-thead > tr > th {
