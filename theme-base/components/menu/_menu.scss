@@ -6,8 +6,12 @@
     border-radius: $borderRadius;
     width: $menuWidth;
 
-    .p-menuitem-link {
-        @include menuitem-link();
+    // .p-menuitem-link {
+    //     @include menuitem-link();
+    // }
+
+    .p-menuitem {
+        @include menuitem();
     }
 
     &.p-menu-overlay {
@@ -31,13 +35,13 @@
         margin: $menuSeparatorMargin;
     }
 
-    .p-menuitem {
-        margin: $verticalMenuitemMargin;
+    // .p-menuitem {
+    //     margin: $verticalMenuitemMargin;
 
-        &:last-child {
-            margin: 0;
-        }
-    }
+    //     &:last-child {
+    //         margin: 0;
+    //     }
+    // }
 
     .p-menuitem-badge {
         @include menuitem-badge();

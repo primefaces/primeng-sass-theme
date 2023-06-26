@@ -6,6 +6,7 @@ $primaryTextColor: hsl(234, 15%, 13%) !default;
 
 $highlightBg:rgba(177, 157, 247, .16) !default;
 $highlightTextColor:$primaryColor !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
 
 $colors: (
     "blue": #54B0F3,
@@ -659,6 +660,7 @@ $menuitemHoverBg:$hoverBg !default;
 $menuitemTextActiveColor:$highlightTextColor !default;
 $menuitemIconActiveColor:$highlightTextColor !default;
 $menuitemActiveBg:$highlightBg !default;
+$menuitemActiveFocusBg:$highlightFocusBg !default;
 $menuitemSubmenuIconFontSize:.875rem !default;
 $submenuHeaderMargin:0 !default;
 $submenuHeaderPadding:.75rem 1.25rem !default;

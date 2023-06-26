@@ -60,6 +60,7 @@ $errorColor:#a4252c !default;
 //highlight
 $highlightBg: $neutralLight !default;
 $highlightTextColor: $neutralPrimary !default;
+$highlightFocusBg: $neutralQuaternaryAlt !default;
 
 //scale
 $scaleSM:0.875 !default;
@@ -670,6 +671,7 @@ $menuitemHoverBg:$neutralLighter !default;
 $menuitemTextActiveColor:$highlightTextColor !default;
 $menuitemIconActiveColor:$themePrimary !default;
 $menuitemActiveBg:$highlightBg !default;
+$menuitemActiveFocusBg:$highlightFocusBg !default;
 $menuitemSubmenuIconFontSize:.875rem !default;
 $submenuHeaderMargin:0 !default;
 $submenuHeaderPadding:.75rem .5rem !default;

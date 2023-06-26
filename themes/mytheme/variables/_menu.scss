@@ -90,6 +90,10 @@ $menuitemIconActiveColor: $textSecondaryColor;
 /// @group menu
 $menuitemActiveBg: #e9ecef;
 
+/// Background of a menuitem in active and focus states
+/// @group menu
+$menuitemActiveFocusBg: #e9ecef;
+
 /// Font size of an icon indicating the itrem has a submenu
 /// @group menu
 $menuitemSubmenuIconFontSize: .875rem;
