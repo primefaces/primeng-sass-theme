@@ -78,6 +78,18 @@ $menuitemIconHoverColor: $textSecondaryColor;
 /// @group menu
 $menuitemHoverBg: #e9ecef;
 
+/// Text color of a menuitem in focus state
+/// @group menu
+$menuitemTextFocusColor: $textColor;
+
+/// Icon color of a menuitem in focus state
+/// @group menu
+$menuitemIconFocusColor: $textColor;
+
+/// Background of a menuitem in focus state
+/// @group menu
+$menuitemFocusBg: #f8f9fa;
+
 /// Text color of a menuitrem in active state
 /// @group menu
 $menuitemTextActiveColor: $textColor;
@@ -89,6 +101,10 @@ $menuitemIconActiveColor: $textSecondaryColor;
 /// Background of a menuitrem in active state
 /// @group menu
 $menuitemActiveBg: #e9ecef;
+
+/// Background of a menuitem in active and focus states
+/// @group menu
+$menuitemActiveFocusBg: #e9ecef;
 
 /// Font size of an icon indicating the itrem has a submenu
 /// @group menu
