@@ -200,6 +200,52 @@
 	}
 }
 
+@mixin horizontal-rootmenuitem {
+    > .p-menuitem-content {
+        color: $horizontalMenuRootMenuitemTextColor;
+        transition: $listItemTransition;
+        border-radius: $horizontalMenuRootMenuitemBorderRadius;
+
+        .p-menuitem-link {
+            padding: $horizontalMenuRootMenuitemPadding;
+            user-select: none;
+
+            .p-menuitem-text {
+                color: $horizontalMenuRootMenuitemTextColor;
+            }
+        
+            .p-menuitem-icon {
+                color: $horizontalMenuRootMenuitemIconColor;
+                margin-right: $inlineSpacing;
+            }
+            
+            .p-submenu-icon {
+                color: $horizontalMenuRootMenuitemIconColor;
+                margin-left: $inlineSpacing;
+            }
+        }
+    }
+
+    &:not(.p-highlight):not(.p-disabled) {
+        > .p-menuitem-content {
+            &:hover {
+                color: $horizontalMenuRootMenuitemTextHoverColor;
+                background: $horizontalMenuRootMenuitemHoverBg;
+    
+                .p-menuitem-link {
+                    .p-menuitem-text {
+                        color: $horizontalMenuRootMenuitemTextHoverColor;
+                    }
+    
+                    .p-menuitem-icon, .p-submenu-icon {
+                        color: $horizontalMenuRootMenuitemIconHoverColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @mixin placeholder {
 	::-webkit-input-placeholder {
 		@content
