@@ -258,6 +258,10 @@ $dockActionHeight: 4rem;
 /// @group menu
 $dockItemPadding: .5rem;
 
+/// Border radius of an action item on dock
+/// @group menu
+$dockItemBorderRadius: $borderRadius;
+
 /// Margin of the current action item on dock
 /// @group menu
 $dockCurrentItemMargin: 1.5rem;
