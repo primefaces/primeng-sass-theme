@@ -6,6 +6,7 @@ $primaryTextColor: hsl(234, 15%, 13%) !default;
 
 $highlightBg:rgba(177, 157, 247, .16) !default;
 $highlightTextColor:$primaryColor !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
 
 $colors: (
     "blue": #54B0F3,
@@ -656,9 +657,13 @@ $menuitemIconColor:$shade100 !default;
 $menuitemTextHoverColor:$shade000 !default;
 $menuitemIconHoverColor:$shade000 !default;
 $menuitemHoverBg:$hoverBg !default;
+$menuitemTextFocusColor:$shade000 !default;
+$menuitemIconFocusColor:$shade000 !default;
+$menuitemFocusBg:rgba(255,255,255,.09) !default;
 $menuitemTextActiveColor:$highlightTextColor !default;
 $menuitemIconActiveColor:$highlightTextColor !default;
 $menuitemActiveBg:$highlightBg !default;
+$menuitemActiveFocusBg:$highlightFocusBg !default;
 $menuitemSubmenuIconFontSize:.875rem !default;
 $submenuHeaderMargin:0 !default;
 $submenuHeaderPadding:.75rem 1.25rem !default;
@@ -810,6 +815,7 @@ $speedDialActionTextHoverColor: $shade900 !default;
 $dockActionWidth: 4rem !default;
 $dockActionHeight: 4rem !default;
 $dockItemPadding: .5rem !default;
+$dockItemBorderRadius:$borderRadius !default;
 $dockCurrentItemMargin: 1.5rem !default;
 $dockFirstItemsMargin: 1.3rem !default;
 $dockSecondItemsMargin: 0.9rem !default;
