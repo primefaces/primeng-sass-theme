@@ -1,4 +1,8 @@
 .p-tabview {
+    .p-tabview-nav-content {
+        scroll-padding-inline: $buttonIconOnlyWidth;
+    }
+
     .p-tabview-nav {
         background: $tabviewNavBg;
         border: $tabviewNavBorder;
