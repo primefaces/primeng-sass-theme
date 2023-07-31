@@ -16,6 +16,16 @@
     }
 }
 
+.p-speeddial-list {
+    outline: 0 none;
+}
+
+.p-speeddial-item {
+    &.p-focus > .p-speeddial-action {
+        @include focused();
+    }
+}
+
 .p-speeddial-action {
     width: $speedDialActionWidth;
     height: $speedDialActionHeight;
