@@ -270,12 +270,14 @@
 }
 
 @mixin nested-submenu-indents($val, $index, $length) {
-    ul {
-        li {
-            a {
-                padding-left: $val * ($index + 1);
+    .p-submenu-list {
+        .p-menuitem {
+            .p-menuitem-content {
+                .p-menuitem-link {
+                    padding-left: $val * ($index + 1);
+                }
+    
             }
-
             @if $index < $length {
                 @include nested-submenu-indents($val, $index + 2, $length);
             }
