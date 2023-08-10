@@ -267,7 +267,8 @@
 
                 &.fc-dayGridMonth-button,
                 &.fc-timeGridWeek-button,
-                &.fc-timeGridDay-button {
+                &.fc-timeGridDay-button,
+                &.fc-listWeek-button {
                     background: $toggleButtonBg;
                     border: $toggleButtonBorder;
                     color: $toggleButtonTextColor;
