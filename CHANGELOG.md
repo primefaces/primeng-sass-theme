@@ -1,4 +1,14 @@
 # Changelog
+## [16.2.0](https://github.com/primefaces/primeng-sass-theme/tree/16.2.0) (2023-08-11)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.1.0...16.2.0)
+
+**Enhancements:**
+- SpeedDial | Accessibility enhancements [\#33](https://github.com/primefaces/primeng-sass-theme/issues/#33)
+
+**Fixed bugs:**
+- Update nested-submenu-indents mixin with classes instead of tags [\#34](https://github.com/primefaces/primeng-sass-theme/issues/#34)
+- Update class name for menu separator [\#37](https://github.com/primefaces/primeng-sass-theme/issues/#37)
+
 ## [16.1.0](https://github.com/primefaces/primeng-sass-theme/tree/16.1.0) (2023-07-26)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.0.2...16.1.0)
 
