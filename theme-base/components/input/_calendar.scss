@@ -245,7 +245,7 @@ p-calendar.p-calendar-clearable {
     }
 }
 
-p-calendar.p-calendar-clearable.p-calendar-w-btn {
+p-calendar.p-calendar-clearable .p-calendar-w-btn {
     .p-calendar-clear-icon {
         color: $inputIconColor;
         right: $buttonIconOnlyWidth + nth($inputPadding, 2);
