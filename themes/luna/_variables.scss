@@ -820,6 +820,8 @@ $imagePreviewActionIconFontSize:1.5rem !default;
 $imagePreviewActionIconBorderRadius:50% !default;
 
 :root {
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --surface-a: #191919;
     --surface-b: #191919;
     --surface-c: #4c4c4c;
@@ -830,7 +832,6 @@ $imagePreviewActionIconBorderRadius:50% !default;
     --text-color-secondary: #888888;
     --primary-color: #{$primaryColor};
     --primary-color-text: #{$primaryTextColor};
-    --font-family: #{$fontFamily};
     --surface-0: #191919;
     --surface-50: #303030;
     --surface-100: #474747;

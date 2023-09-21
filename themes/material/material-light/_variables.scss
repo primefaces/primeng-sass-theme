@@ -20,7 +20,7 @@ $emphasis-lower:rgba(0,0,0,.12) !default;
 $overlayColor:#000000 !default;
 
 //global
-$fontFamily:Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif !default;
+$fontFamily:Roboto,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif !default;
 $fontSize:1rem !default;
 $fontWeight:normal !default;
 $textColor:$emphasis-high !default;
@@ -828,6 +828,8 @@ $imagePreviewActionIconFontSize:1.5rem !default;
 $imagePreviewActionIconBorderRadius:50% !default;
 
 :root {
+    font-family:Roboto,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+    --font-family:Roboto,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
     --surface-a:#ffffff;
     --surface-b:#fafafa;
     --surface-c:rgba(0,0,0,.04);
@@ -838,7 +840,6 @@ $imagePreviewActionIconBorderRadius:50% !default;
     --text-color-secondary:#{$textSecondaryColor};
     --primary-color:#{$primaryColor};
     --primary-color-text:#{$primaryTextColor};
-    --font-family:#{$fontFamily};
     --surface-0: #ffffff;
     --surface-50: #FAFAFA;
     --surface-100: #F5F5F5;
