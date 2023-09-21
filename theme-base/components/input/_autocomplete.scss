@@ -27,8 +27,9 @@
             padding: math.div(nth($inputPadding, 1), 2) 0;
 
             input {
-                font-family: $fontFamily;
-                font-size: $fontSize;
+                font-family: inherit;
+                font-feature-settings: inherit;
+                font-size: inherit;
                 color: $textColor;
                 padding: 0;
                 margin: 0;

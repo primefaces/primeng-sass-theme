@@ -3,7 +3,8 @@
 }
 
 .p-component {
-    font-family: $fontFamily;
+    font-family: inherit;
+    font-feature-settings: inherit;
     font-size: $fontSize;
     font-weight: $fontWeight;
 }
@@ -36,7 +37,8 @@
 
 .p-link {
     font-size: $fontSize;
-    font-family: $fontFamily;
+    font-family: inherit;
+    font-feature-settings: inherit;
     border-radius: $borderRadius;
 
     &:focus {
