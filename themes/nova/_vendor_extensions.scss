@@ -1,22 +1,24 @@
-.p-panel {
-    .p-panel-header {
-        .p-panel-header-icon {
-            color: $containerHeaderIconColor;
-
-            &:enabled:hover {
-                color: $containerHeaderIconHoverColor;
+@layer primeng {
+    .p-panel {
+        .p-panel-header {
+            .p-panel-header-icon {
+                color: $containerHeaderIconColor;
+    
+                &:enabled:hover {
+                    color: $containerHeaderIconHoverColor;
+                }
             }
         }
     }
-}
-
-.p-dialog {
-    .p-dialog-header {
-        .p-dialog-header-icon {
-            color: $containerHeaderIconColor;
-
-            &:enabled:hover {
-                color: $containerHeaderIconHoverColor;
+    
+    .p-dialog {
+        .p-dialog-header {
+            .p-dialog-header-icon {
+                color: $containerHeaderIconColor;
+    
+                &:enabled:hover {
+                    color: $containerHeaderIconHoverColor;
+                }
             }
         }
     }
