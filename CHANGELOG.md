@@ -1,5 +1,21 @@
 # Changelog
 
+## [16.4.0](https://github.com/primefaces/primeng-sass-theme/tree/16.4.0) (2023-09-26)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.3.0...16.4.0)
+
+**Enhancements:**
+- New @layer implementation [\#47](https://github.com/primefaces/primeng-sass-theme/issues/#47)
+- Update Lara theme to use Inter var font [\#46](https://github.com/primefaces/primeng-sass-theme/issues/#46)
+- FileUpload | Drag and drop highlight enhancement [\#52](https://github.com/primefaces/primeng-sass-theme/issues/#52)
+- DataTable | Row selection focus styling issue [\#49](https://github.com/primefaces/primeng-sass-theme/issues/#49)
+- focus-visible updates [\#48](https://github.com/primefaces/primeng-sass-theme/issues/#48)
+
+**Fixed bugs:**
+- AutoComplete | p-autocomplete-token-icon alignment issue [\#41](https://github.com/primefaces/primeng-sass-theme/issues/#50)
+- FileUpload | .p-fileupload-highlight class is missing  [\#50](https://github.com/primefaces/primeng-sass-theme/issues/#50)
+- Update class name for menu separator [\#37](https://github.com/primefaces/primeng-sass-theme/issues/#37)
+
+  
 ## [16.3.0](https://github.com/primefaces/primeng-sass-theme/tree/16.3.0) (2023-08-31)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.2.0...16.3.0)
 
