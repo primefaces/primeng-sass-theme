@@ -41,7 +41,7 @@
     font-feature-settings: inherit;
     border-radius: $borderRadius;
 
-    &:focus {
+    &:focus-visible {
         @include focused();
     }
 }

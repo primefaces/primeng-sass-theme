@@ -300,7 +300,7 @@
         background: $actionIconHoverBg;
     }
 
-    &:focus {
+    &:focus-visible {
         @include focused();
     }
 }
