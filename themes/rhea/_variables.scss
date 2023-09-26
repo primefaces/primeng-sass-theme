@@ -418,6 +418,7 @@ $tabviewContentPadding: $panelContentPadding !default;
 //upload
 $fileUploadProgressBarHeight: .25rem !default;
 $fileUploadContentPadding: $panelContentPadding !default;
+$fileUploadContentHoverBorder: 1px dashed $primaryColor !default;
 
 //scrollpanel
 $scrollPanelTrackBorder: 0 none !default;

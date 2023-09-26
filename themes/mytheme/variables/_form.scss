@@ -503,6 +503,10 @@ $fileUploadProgressBarHeight: .25rem;
 /// @group input
 $fileUploadContentPadding: 2rem 1rem;
 
+/// 
+/// @group input
+$fileUploadContentHoverBorder: 1px dashed #e9ecef !default;
+
 /// Background of an editor toolbar
 /// @group input
 $editorToolbarBg:#f8f9fa;

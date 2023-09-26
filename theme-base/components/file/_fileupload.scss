@@ -26,7 +26,7 @@
         border-bottom-left-radius: $borderRadius;
 
         &.p-fileupload-highlight {
-            border-color: $primaryColor;
+            border-color: $fileUploadContentHoverBorder;
             border-style: dashed;
             background-color: $highlightBg;
         }
