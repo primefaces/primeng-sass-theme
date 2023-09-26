@@ -123,7 +123,7 @@
 
             &:focus-visible {
                 outline: 0.15rem solid $focusOutlineColor;
-                outline-offset: 0.15rem;
+                outline-offset: -0.15rem;
             }
 
             &.p-highlight {
