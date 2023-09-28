@@ -163,6 +163,7 @@ p-multiselect.ng-dirty.ng-invalid > .p-multiselect {
 
 p-multiselect.p-multiselect-clearable {
     .p-multiselect-label-container {
+        display: inline-flex;
         padding-right: nth($inputPadding, 2) + $primeIconFontSize;
     }
 
