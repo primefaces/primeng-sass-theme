@@ -47,7 +47,7 @@
                     }
 
                     .ql-picker-options {
-                        background: $inputOverlayBg;
+                        background: $inputOverlayBg !important;
                         border:$inputOverlayBorder;
                         box-shadow:$inputOverlayShadow;
                         border-radius: $borderRadius;
