@@ -1,6 +1,6 @@
 .p-inputtext {
-    font-family: inherit;
-    font-feature-settings: inherit;
+    font-family: var(--font-family);
+    font-feature-settings: var(--font-feature-settings, normal);
     font-size: $inputTextFontSize;
     color: $inputTextColor;
     background: $inputBg;
