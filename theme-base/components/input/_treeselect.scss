@@ -129,6 +129,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 
 p-treeselect.p-treeselect-clearable {
     .p-treeselect-label-container {
+        display: flex;
         padding-right: nth($inputPadding, 2) + $primeIconFontSize;
     }
     
