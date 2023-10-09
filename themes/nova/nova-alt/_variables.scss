@@ -5,6 +5,7 @@ $primaryTextColor: #ffffff !default;
 
 $highlightBg: $primaryColor !default;
 $highlightTextColor: $primaryTextColor !default;
+$highlightFocusBg: darken($primaryColor, .08) !default;
 
 $containerHeaderBorderColor: #333333 !default;
 $containerHeaderBorder: 1px solid $containerHeaderBorderColor !default;

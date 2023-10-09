@@ -23,6 +23,7 @@ $colors: (
 $highlightBg: #AFD3C8 !default;
 $highlightBgDark: #8DC8B5 !default;
 $highlightTextColor: #385048 !default;
+$highlightFocusBg: darken($highlightBg, .24) !default;
 
 //global
 $fontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -94,6 +95,8 @@ $inputListItemBg: transparent !default;
 $inputListItemTextColor: $textColor !default;
 $inputListItemHoverBg: #f4f4f4 !default;
 $inputListItemTextHoverColor: $textColor !default;
+$inputListItemFocusBg: #e0e0e0 !default;
+$inputListItemTextFocusColor:$textColor !default;
 $inputListItemBorder: 0 none !default;
 $inputListItemBorderRadius: 0 !default;
 $inputListItemMargin: 0 !default;

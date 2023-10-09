@@ -41,6 +41,7 @@ $errorColor:#f44435 !default;
 //selected state
 $highlightBg:rgba($primaryColor, .16) !default;
 $highlightTextColor:$primaryColor !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
 
 //scale
 $scaleSM:0.875 !default;
@@ -93,6 +94,8 @@ $inputListItemBg:transparent !default;
 $inputListItemTextColor:$textColor !default;
 $inputListItemHoverBg:hsla(0,0%,100%,.04) !default;
 $inputListItemTextHoverColor:$textColor !default;
+$inputListItemFocusBg:hsla(0,0%,100%,.12) !default;
+$inputListItemTextFocusColor:$textColor !default;
 $inputListItemBorder:0 none !default;
 $inputListItemBorderRadius:0 !default;
 $inputListItemMargin:0 !default;

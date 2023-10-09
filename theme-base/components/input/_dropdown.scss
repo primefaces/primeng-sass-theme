@@ -26,6 +26,7 @@
             color: $inputPlaceholderTextColor;
         }
 
+        &:focus,
         &:enabled:focus {
             outline: 0 none;
             box-shadow: none;
@@ -43,6 +44,10 @@
     .p-dropdown-clear-icon {
         color: $inputIconColor;
         right: $inputGroupAddOnMinWidth;
+    }
+
+    &.p-invalid.p-component {
+        @include invalid-input();
     }
 }
 
@@ -88,18 +93,23 @@
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
+
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
             }
 
-            &:not(.p-highlight):not(.p-disabled):hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
-            }
-        }
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextFocusColor;
+                    background: $inputListItemFocusBg;
+                }
 
-        .p-dropdown-empty-message {
-            padding: $inputListItemPadding;
-            color: $inputListItemTextColor;
-            background: $inputListItemBg;
+                &:hover {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
+            }
         }
 
         .p-dropdown-item-group {
@@ -109,11 +119,13 @@
             background: $submenuHeaderBg;
             font-weight: $submenuHeaderFontWeight;
         }
-    }
-}
 
-p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
-    @include invalid-input();
+        .p-dropdown-empty-message {
+            padding: $inputListItemPadding;
+            color: $inputListItemTextColor;
+            background: $inputListItemBg;
+        }
+    }
 }
 
 .p-input-filled {
@@ -123,7 +135,7 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
         &:not(.p-disabled):hover {
             background-color: $inputFilledHoverBg;
         }
-
+    
         &:not(.p-disabled).p-focus {
             background-color: $inputFilledFocusBg;
 

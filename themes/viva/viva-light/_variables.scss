@@ -7,6 +7,7 @@ $primaryTextColor: #ffffff !default;
 
 $highlightBg: #ced6f1 !default;
 $highlightTextColor: #585858 !default;
+$highlightFocusBg: darken($highlightBg, 8%) !default;
 
 $colors: (
     "blue": #54A6D4,
@@ -105,6 +106,8 @@ $inputListItemBg:transparent !default;
 $inputListItemTextColor:$shade700 !default;
 $inputListItemHoverBg:$shade200 !default;
 $inputListItemTextHoverColor:$shade700 !default;
+$inputListItemFocusBg:#e6e9f3 !default;
+$inputListItemTextFocusColor:$shade700 !default;
 $inputListItemBorder:0 none !default;
 $inputListItemBorderRadius:6px !default;
 $inputListItemMargin:0 0 4px 0 !default;

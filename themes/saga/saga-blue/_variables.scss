@@ -6,5 +6,6 @@ $primaryTextColor: #ffffff !default;
 
 $highlightBg: #E3F2FD !default;
 $highlightTextColor: #495057 !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
 
 @import '../_variables';

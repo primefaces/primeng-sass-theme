@@ -65,6 +65,7 @@ $errorColor:#BF616A !default;
 //highlight
 $highlightBg: $white300 !default;
 $highlightTextColor: $black400 !default;
+$highlightFocusBg: darken($highlightBg, 8%) !default;
 
 //scale
 $scaleSM:0.875 !default;
@@ -118,6 +119,8 @@ $inputListItemBg:transparent !default;
 $inputListItemTextColor:$black100 !default;
 $inputListItemHoverBg:transparent !default;
 $inputListItemTextHoverColor:$black100 !default;
+$inputListItemFocusBg:$white200 !default;
+$inputListItemTextFocusColor:$black100 !default;
 $inputListItemBorder:0 none !default;
 $inputListItemBorderRadius:0 !default;
 $inputListItemMargin:0 !default;
