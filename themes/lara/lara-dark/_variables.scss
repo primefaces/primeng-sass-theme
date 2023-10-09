@@ -525,12 +525,6 @@ $dataViewContentBorder:0 none !default;
 $dataViewListItemBorder:solid $shade600 !default;
 $dataViewListItemBorderWidth:0 0 1px 0 !default;
 
-//schedule
-$fullCalendarEventBg:$primaryDarkColor !default;
-$fullCalendarEventBorderColor: $primaryDarkColor !default;
-$fullCalendarEventBorder:1px solid $primaryDarkColor !default;
-$fullCalendarEventTextColor:$primaryTextColor !default;
-
 //tree
 $treeContainerPadding:0.286rem !default;
 $treeNodePadding:0.143rem !default;
@@ -837,6 +831,7 @@ $imagePreviewActionIconBorderRadius:50% !default;
     font-feature-settings: "cv02","cv03","cv04","cv11";
     font-variation-settings: normal;
     --font-family:'Inter var', sans-serif;
+    --font-feature-settings: "cv02","cv03","cv04","cv11";
     --surface-a:#{$shade800};
     --surface-b:#{$shade900};
     --surface-c:#{$hoverBg};

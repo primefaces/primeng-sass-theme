@@ -3,8 +3,8 @@
 }
 
 .p-component {
-    font-family: inherit;
-    font-feature-settings: inherit;
+    font-family: var(--font-family);
+    font-feature-settings: var(--font-feature-settings, normal);
     font-size: $fontSize;
     font-weight: $fontWeight;
 }
@@ -36,9 +36,9 @@
 }
 
 .p-link {
+    font-family: var(--font-family);
+    font-feature-settings: var(--font-feature-settings, normal);
     font-size: $fontSize;
-    font-family: inherit;
-    font-feature-settings: inherit;
     border-radius: $borderRadius;
 
     &:focus-visible {

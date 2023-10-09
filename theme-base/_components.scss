@@ -1,6 +1,8 @@
 @import '_mixins';
 @import '_colors';
 
+@import './components/input/_editor';
+
 @layer primeng {
     @import '_common';
 
@@ -12,7 +14,7 @@
     @import './components/input/_chips';
     @import './components/input/_colorpicker';
     @import './components/input/_dropdown';
-    @import './components/input/_editor';
+
     @import './components/input/_inputgroup';
     @import './components/input/_inputmask';
     @import './components/input/_inputnumber';
@@ -38,7 +40,6 @@
     @import './components/data/_datatable';
     @import './components/data/_dataview';
     @import './components/data/_filter';
-    @import './components/data/_fullcalendar';
     @import './components/data/_orderlist';
     @import './components/data/_organizationchart';
     @import './components/data/_paginator';
