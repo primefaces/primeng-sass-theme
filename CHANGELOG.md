@@ -1,4 +1,15 @@
 # Changelog
+## [16.5.0](https://github.com/primefaces/primeng-sass-theme/tree/16.5.0) (2023-10-11)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.4.0...16.5.0)
+
+**Breaking Changes:**
+- Remove FullCalendar theme support [\#59](https://github.com/primefaces/primeng-sass-theme/issues/59)
+
+**Enhancements:**
+- Dropdown | Accessibility update & add missing variables [\#61](https://github.com/primefaces/primeng-sass-theme/issues/61)
+  
+**Fixed bugs:**
+- Remove FullCalendar theme support [\#59](https://github.com/primefaces/primeng-sass-theme/issues/59)
 
 ## [16.4.0](https://github.com/primefaces/primeng-sass-theme/tree/16.4.0) (2023-09-26)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.3.0...16.4.0)
