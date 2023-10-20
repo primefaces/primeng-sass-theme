@@ -26,6 +26,7 @@ $colors: (
 //shades
 $shade000:rgba(255,255,255,.87) !default;  //text color
 $shade100:rgba(255,255,255,.60) !default;  //text secondary color
+$shade500:#4c4d5f !default;
 $shade600:#3e4053 !default;  //input bg, border, divider
 $shade700:#333544 !default;  //unused
 $shade800:#282936 !default;  //elevated surface
@@ -779,6 +780,8 @@ $avatarTextColor:$textColor !default;
 $chipBg:$shade600 !default;
 $chipTextColor:$textColor !default;
 $chipBorderRadius: 16px !default;
+$chipFocusBg:$shade500 !default;
+$chipFocusTextColor:$textColor !default;
 
 //scrollTop
 $scrollTopBg:$highlightBg !default;

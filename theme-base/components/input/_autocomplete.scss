@@ -2,7 +2,7 @@
 
 .p-autocomplete {
     .p-autocomplete-loader {
-        right: nth($inputPadding, 2);
+        right: nth($inputPadding, 2); 
     }
 
     &.p-autocomplete-dd {
@@ -11,25 +11,29 @@
         }
     }
 
+    &:not(.p-disabled):hover {
+        .p-autocomplete-multiple-container {
+            border-color: $inputHoverBorderColor;
+        }
+    }
+
+    &:not(.p-disabled).p-focus {
+        .p-autocomplete-multiple-container {
+            @include focused-input();
+        }
+    }
+
     .p-autocomplete-multiple-container {
         padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
         gap: $inlineSpacing;
 
-        &:not(.p-disabled):hover {
-            border-color: $inputHoverBorderColor;
-        }
-
-        &:not(.p-disabled).p-focus {
-            @include focused-input();
-        }
-
         .p-autocomplete-input-token {
             padding: math.div(nth($inputPadding, 1), 2) 0;
-
+            
             input {
-                font-family: var(--font-family);
-                font-feature-settings: var(--font-feature-settings, normal);
-                font-size: $inputTextFontSize;
+                font-family: inherit;
+                font-feature-settings: inherit;
+                font-size: inherit;
                 color: $textColor;
                 padding: 0;
                 margin: 0;
@@ -38,19 +42,24 @@
 
         .p-autocomplete-token {
             padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-            background: $highlightBg;
-            color: $highlightTextColor;
-            border-radius: $borderRadius;
+            background: $chipBg;
+            color: $chipTextColor;
+            border-radius: $chipBorderRadius;
 
             .p-autocomplete-token-icon {
                 margin-left: $inlineSpacing;
             }
+
+            &.p-focus {
+                background: $chipFocusBg;
+                color: $chipFocusTextColor;
+            }
         }
     }
-}
 
-p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
-    @include invalid-input();
+    &.p-invalid.p-component > .p-inputtext {
+        @include invalid-input();
+    }
 }
 
 .p-autocomplete-panel {
@@ -72,21 +81,26 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
             transition: $listItemTransition;
             border-radius: $inputListItemBorderRadius;
 
-            &:hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
-            }
-
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
-            }
-        }
 
-        .p-autocomplete-empty-message {
-            padding: $inputListItemPadding;
-            color: $inputListItemTextColor;
-            background: $inputListItemBg;
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
+            }
+
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextFocusColor;
+                    background: $inputListItemFocusBg;
+                }
+
+                &:hover {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
+            }
         }
 
         .p-autocomplete-item-group {
@@ -97,6 +111,10 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
             font-weight: $submenuHeaderFontWeight;
         }
     }
+}
+
+p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
+    @include invalid-input();
 }
 
 p-autocomplete.p-autocomplete-clearable {

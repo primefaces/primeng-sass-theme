@@ -769,6 +769,8 @@ $avatarTextColor:$textColor !default;
 $chipBg:hsla(0,0%,100%,.12) !default;
 $chipTextColor:$textColor !default;
 $chipBorderRadius: 16px !default;
+$chipFocusBg:hsla(0,0%,100%,.24) !default;
+$chipFocusTextColor:$textColor !default;
 
 //scrollTop
 $scrollTopBg:$accentColor !default;

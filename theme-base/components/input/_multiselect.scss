@@ -24,14 +24,12 @@
     }
 
     &.p-multiselect-chip {
-        .p-multiselect-label {
-            gap: $inlineSpacing;
-        }
         .p-multiselect-token {
             padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-            background: $highlightBg;
-            color: $highlightTextColor;
-            border-radius: $borderRadius;
+            margin-right: $inlineSpacing;
+            background: $chipBg;
+            color: $chipTextColor;
+            border-radius: $chipBorderRadius;
 
             .p-multiselect-token-icon {
                 margin-left: $inlineSpacing;
@@ -46,15 +44,27 @@
         border-top-right-radius: $borderRadius;
         border-bottom-right-radius: $borderRadius;
     }
+
 }
 
 .p-inputwrapper-filled {
-    .p-multiselect {
+    &.p-multiselect {
         &.p-multiselect-chip {
             .p-multiselect-label {
                 padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
             }
         }
+    }
+}
+    
+.p-multiselect-clearable {
+    .p-multiselect-label-container {
+        padding-right: nth($inputPadding, 2) + $primeIconFontSize;
+    }
+
+    .p-multiselect-clear-icon {
+        color: $inputIconColor;
+        right: $inputGroupAddOnMinWidth;
     }
 }
 
@@ -110,22 +120,28 @@
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
+
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
             }
 
-            &:not(.p-highlight):not(.p-disabled):hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
-            }
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextFocusColor;
+                    background: $inputListItemFocusBg;
+                }
 
-            &:focus {
-                @include focused-listitem();
+                &:hover {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
             }
 
             .p-checkbox {
                 margin-right: $inlineSpacing;
             }
         }
-
 
         .p-multiselect-item-group {
             margin: $submenuHeaderMargin;
@@ -143,10 +159,6 @@
     }
 }
 
-p-multiselect.ng-dirty.ng-invalid > .p-multiselect {
-    @include invalid-input();
-}
-
 .p-input-filled {
     .p-multiselect {
         background: $inputFilledBg;
@@ -154,20 +166,14 @@ p-multiselect.ng-dirty.ng-invalid > .p-multiselect {
         &:not(.p-disabled):hover {
             background-color: $inputFilledHoverBg;
         }
-
+    
         &:not(.p-disabled).p-focus {
             background-color: $inputFilledFocusBg;
         }
     }
+
 }
 
-p-multiselect.p-multiselect-clearable {
-    .p-multiselect-label-container {
-        padding-right: nth($inputPadding, 2) + $primeIconFontSize;
-    }
-
-    .p-multiselect-clear-icon {
-        color: $inputIconColor;
-        right: $inputGroupAddOnMinWidth;
-    }
+p-multiselect.ng-dirty.ng-invalid > .p-multiselect {
+    @include invalid-input();
 }
