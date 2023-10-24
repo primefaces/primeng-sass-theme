@@ -3,6 +3,7 @@
     color: $inputListTextColor;
     border: $inputListBorder;
     border-radius: $borderRadius;
+    transition: $formElementTransition;
 
     .p-listbox-header {
         padding: $inputListHeaderPadding;
@@ -21,7 +22,7 @@
             right: nth($inputPadding, 2);
             color: $inputIconColor;
         }
-
+        
         .p-checkbox {
             margin-right: $inlineSpacing;
         }
@@ -29,6 +30,7 @@
 
     .p-listbox-list {
         padding: $inputListPadding;
+        outline: 0 none;
 
         .p-listbox-item {
             margin: $inputListItemMargin;
@@ -41,10 +43,6 @@
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
-            }
-
-            &:focus {
-                @include focused-listitem();
             }
 
             .p-checkbox {
@@ -69,11 +67,28 @@
 
     &:not(.p-disabled) {
         .p-listbox-item {
-            &:not(.p-highlight):not(.p-disabled):hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
+            &.p-highlight {
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
+            }
+
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextFocusColor;
+                    background: $inputListItemFocusBg;
+                }
+
+                &:hover {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
             }
         }
+    }
+
+    &.p-focus {
+        @include focused-input();
     }
 }
 
