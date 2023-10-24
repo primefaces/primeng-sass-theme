@@ -78,6 +78,14 @@ $chipTextColor:$textColor;
 /// @group misc
 $chipBorderRadius:16px;
 
+/// Background of a chip in focus state
+/// @group misc
+$chipFocusBg:#dee2e6 !default;
+
+/// Color of a chip in focus state
+/// @group misc
+$chipFocusTextColor:$textColor !default;
+
 /// Background of a scrollTop
 /// @group misc
 $scrollTopBg:rgba(0,0,0,0.7);
