@@ -1,5 +1,11 @@
 # Changelog
 
+## [16.6.0](https://github.com/primefaces/primeng-sass-theme/tree/16.6.0) (2023-10-18)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.5.1...16.6.0)
+
+**Enhancements:**
+- Listbox | Accessibility Enhancements [\#65](https://github.com/primefaces/primeng-sass-theme/issues/65)
+
 ## [16.5.1](https://github.com/primefaces/primeng-sass-theme/tree/16.5.1) (2023-10-18)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.5.0...16.5.1)
 
