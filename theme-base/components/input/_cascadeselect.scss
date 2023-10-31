@@ -1,5 +1,4 @@
 @use 'sass:math';
-
 .p-cascadeselect {
     background: $inputBg;
     border: $inputBorder;
@@ -36,6 +35,10 @@
         border-top-right-radius: $borderRadius;
         border-bottom-right-radius: $borderRadius;
     }
+
+    &.p-invalid.p-component {
+        @include invalid-input();
+    }
 }
 
 .p-cascadeselect-panel {
@@ -56,38 +59,37 @@
             transition: $listItemTransition;
             border-radius: $inputListItemBorderRadius;
 
-            .p-cascadeselect-item-content {
-                padding: $inputListItemPadding;
-
-                &:focus {
-                    @include focused-listitem();
-                }
-            }
-
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
+
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
             }
 
-            &:not(.p-highlight):not(.p-disabled):hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextFocusColor;
+                    background: $inputListItemFocusBg;
+                }
+
+                &:hover {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
+            }
+
+
+            .p-cascadeselect-item-content {
+                padding: $inputListItemPadding;
             }
 
             .p-cascadeselect-group-icon {
                 font-size: $menuitemSubmenuIconFontSize;
             }
-
-            .p-icon {
-                width: $menuitemSubmenuIconFontSize;
-                height: $menuitemSubmenuIconFontSize;
-            }
         }
     }
-}
-
-p-cascadeselect.ng-dirty.ng-invalid > .p-cascadeselect {
-    @include invalid-input();
 }
 
 .p-input-filled {
@@ -97,11 +99,15 @@ p-cascadeselect.ng-dirty.ng-invalid > .p-cascadeselect {
         &:not(.p-disabled):hover {
             background-color: $inputFilledHoverBg;
         }
-
+    
         &:not(.p-disabled).p-focus {
             background-color: $inputFilledFocusBg;
         }
     }
+}
+
+p-cascadeselect.ng-dirty.ng-invalid > .p-cascadeselect {
+    @include invalid-input();
 }
 
 p-cascadeselect.p-cascadeselect-clearable {
