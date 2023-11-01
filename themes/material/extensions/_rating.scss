@@ -1,32 +1,27 @@
 .p-rating {
-    .p-rating-icon {
+    gap: 0;
+
+    .p-rating-item {
         border-radius: 50%;
         width: 2rem;
         height: 2rem;
-        display: inline-flex;
         justify-content: center;
-        align-items: center;
-        margin-left: 0;
 
-        &:focus {
+        &.p-focus {
             background: rgba($primaryColor, .12);
-        }
 
-        &.p-rating-cancel {
-            &:focus {
+            &.p-rating-cancel-item {
                 background: rgba($ratingCancelIconColor, .12);
             }
         }
     }
 
     &:not(.p-disabled):not(.p-readonly) {
-        .p-rating-icon {
+        .p-rating-item {
             &:hover {
                 background-color: rgba(0,0,0,.04);
-            }
 
-            &.p-rating-cancel {
-                &:hover {
+                &.p-rating-cancel-item {
                     background: rgba($ratingCancelIconColor, .04);
                 }
             }

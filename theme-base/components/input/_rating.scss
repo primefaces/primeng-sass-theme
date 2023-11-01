@@ -1,43 +1,44 @@
+@use 'sass:math';
+
 .p-rating {
     gap: $inlineSpacing;
+
+    .p-rating-item {
+        .p-rating-icon {
+            color: $ratingStarIconOffColor;
+            transition: $formElementTransition;   
+            font-size: $ratingIconFontSize;
+
+            &.p-icon {
+                width: $ratingIconFontSize;
+                height: $ratingIconFontSize;
+            }
     
-    .p-rating-icon {
-        color: $ratingStarIconOffColor;
-        margin-left: $inlineSpacing;
-        transition: $formElementTransition;
-        font-size: $ratingIconFontSize;
-
-        &.p-icon {
-            width: $ratingIconFontSize;
-            height: $ratingIconFontSize;   
+            &.p-rating-cancel {
+                color: $ratingCancelIconColor;
+            }
         }
 
-        &.p-rating-cancel {
-            color: $ratingCancelIconColor;
+        &.p-focus {
+            @include focused-input();
         }
 
-        &:focus {
-            @include focused();
-        }
-
-        &:first-child {
-            margin-left: 0;
-        }
-
-        &.p-rating-icon-active {
-            color: $ratingStarIconOnColor;
+        &.p-rating-item-active {
+            .p-rating-icon {
+                color: $ratingStarIconOnColor;
+            }
         }
     }
 
     &:not(.p-disabled):not(.p-readonly) {
-        .p-rating-icon {
+        .p-rating-item {
             &:hover {
-                color: $ratingStarIconHoverColor;
-            }
+                .p-rating-icon {
+                    color: $ratingStarIconHoverColor;
 
-            &.p-rating-cancel {
-                &:hover {
-                    color: $ratingCancelIconHoverColor;
+                    &.p-rating-cancel {
+                        color: $ratingCancelIconHoverColor;
+                    }
                 }
             }
         }
@@ -47,8 +48,12 @@
 @if ($highlightBg == $ratingStarIconOnColor) {
     .p-highlight {
         .p-rating {
-            .p-rating-icon {
-                color: $highlightTextColor;
+            .p-rating-item {
+                &.p-rating-item-active {
+                    .p-rating-icon {
+                        color: $highlightTextColor;
+                    }
+                }
             }
         }
     }
