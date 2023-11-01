@@ -1,5 +1,13 @@
 # Changelog
 
+## [16.7.0](https://github.com/primefaces/primeng-sass-theme/tree/16.7.0) (2023-11-01)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.6.0...16.7.0)
+
+**Enhancements:**
+- Rating | Accessibility Enhancements [\#70](https://github.com/primefaces/primeng-sass-theme/issues/70)
+- Chips: Accessibility [\#63](https://github.com/primefaces/primeng-sass-theme/issues/63)
+- CascadeSelect | Accessibility enhancements [\#68](https://github.com/primefaces/primeng-sass-theme/issues/68)
+
 ## [16.6.0](https://github.com/primefaces/primeng-sass-theme/tree/16.6.0) (2023-10-18)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.5.1...16.6.0)
 
