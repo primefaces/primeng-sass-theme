@@ -16,11 +16,11 @@ $colors: (
 //shades
 $shade000: rgba(255, 255, 255, 0.87) !default; //text color
 $shade100: rgba(255, 255, 255, 0.6) !default; //text secondary color
-$shade500: #233752 !default;
-$shade600: #0b213f !default; //input bg, border, divider
-$shade700: #091a32 !default; //menu bg
-$shade800: #071426 !default; //elevated surface
-$shade900: #040d19 !default; //ground surface
+$shade500: #002920 !default;
+$shade600: #002019 !default; //input bg, border, divider
+$shade700: #001a14 !default; //menu bg
+$shade800: #222222 !default; //elevated surface
+$shade900: #010605 !default; //ground surface
 
 $hoverBg: rgba(255, 255, 255, 0.03) !default;
 
@@ -40,7 +40,7 @@ $actionIconTransition: background-color $transitionDuration,
 $listItemTransition: box-shadow $transitionDuration !default;
 $primeIconFontSize: 1rem !default;
 $divider: 1px solid $shade600 !default;
-$inlineSpacing: 0.5rem !default; //spacing between inline elements
+$inlineSpacing: 0.75rem !default; //spacing between inline elements
 $disabledOpacity: 0.4 !default; //opacity of a disabled item
 $maskBg: rgba(0, 0, 0, 0.4) !default; //modal mask bg color
 $loadingIconFontSize: 2rem !default;
@@ -68,7 +68,7 @@ $actionIconHoverColor: $shade000 !default;
 $actionIconBorderRadius: 50% !default;
 
 //input field (e.g. inputtext, spinner, inputmask)
-$inputPadding: 0.75rem 0.75rem !default;
+$inputPadding: 0.5rem 0.5rem !default;
 $inputTextFontSize: 1rem !default;
 $inputBg: $shade900 !default;
 $inputTextColor: $shade000 !default;
@@ -904,7 +904,7 @@ $imagePreviewActionIconBorderRadius: 50% !default;
   --text-color-secondary: #{$shade100};
   --primary-color: #{$primaryColor};
   --primary-color-text: #{$primaryTextColor};
-  --surface-0: #040d19;
+  --surface-0: #010605;
   --surface-50: #1d2530;
   --surface-100: #363d47;
   --surface-200: #4f565e;
@@ -924,14 +924,14 @@ $imagePreviewActionIconBorderRadius: 50% !default;
   --gray-600: #4f565e;
   --gray-700: #363d47;
   --gray-800: #1d2530;
-  --gray-900: #040d19;
+  --gray-900: #010605;
   --content-padding: #{$panelContentPadding};
   --inline-spacing: #{$inlineSpacing};
   --border-radius: #{$borderRadius};
-  --surface-ground: #040d19;
-  --surface-section: #040d19;
-  --surface-card: #071426;
-  --surface-overlay: #071426;
+  --surface-ground: #010605;
+  --surface-section: #010605;
+  --surface-card: #222222;
+  --surface-overlay: #222222;
   --surface-border: #0b213f;
   --surface-hover: rgba(255, 255, 255, 0.03);
   --focus-ring: #{$focusShadow};
