@@ -17,3 +17,11 @@ Dark:
 Light:
 
 `sass --update themes/rortheme/light/teal/theme.scss:themes/rortheme/result/theme-light.css`
+
+# Documentation
+
+- https://www.primefaces.org/designer/api/primeng/15.0.0/
+
+# Other references
+
+- https://designer.primeng.org/#/

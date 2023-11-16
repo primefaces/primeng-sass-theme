@@ -16,9 +16,9 @@ $colors: (
 //shades
 $shade000: rgba(255, 255, 255, 0.87) !default; //text color
 $shade100: rgba(255, 255, 255, 0.6) !default; //text secondary color
-$shade500: #233752 !default;
-$shade600: #0b213f !default; //input bg, border, divider
-$shade700: #091a32 !default; //menu bg
+$shade500: #002920 !default;
+$shade600: #002019 !default; //input bg, border, divider
+$shade700: #001a14 !default; //menu bg
 $shade800: #222222 !default; //elevated surface
 $shade900: #010605 !default; //ground surface
 
@@ -548,7 +548,7 @@ $tableSortableColumnBadgeSize: 1.143rem !default;
 
 $tableBodyRowBg: $shade800 !default;
 $tableBodyRowTextColor: $shade000 !default;
-$tableBodyRowEvenBg: #0d1a2c !default;
+$tableBodyRowEvenBg: #002920 !default;
 $tableBodyRowHoverBg: $hoverBg !default;
 $tableBodyRowTextHoverColor: $shade000 !default;
 $tableBodyCellBorder: 1px solid $shade600 !default;
