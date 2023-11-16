@@ -41,7 +41,7 @@ $actionIconTransition: background-color $transitionDuration,
 $listItemTransition: box-shadow $transitionDuration !default;
 $primeIconFontSize: 1rem !default;
 $divider: 1px solid $shade300 !default;
-$inlineSpacing: 0.5rem !default;
+$inlineSpacing: 0.75rem !default;
 $disabledOpacity: 0.6 !default;
 $maskBg: rgba(0, 0, 0, 0.4) !default;
 $loadingIconFontSize: 2rem !default;
@@ -69,10 +69,10 @@ $actionIconHoverColor: $shade800 !default;
 $actionIconBorderRadius: 50% !default;
 
 //input field (e.g. inputtext, spinner, inputmask)
-$inputPadding: 0.75rem 0.75rem !default;
+$inputPadding: 0.5rem 0.5rem !default;
 $inputTextFontSize: 1rem !default;
 
-$inputBg: $shade100 !default;
+$inputBg: $shade200 !default;
 $inputTextColor: $shade700 !default;
 $inputIconColor: $shade600 !default;
 $inputBorder: 1px solid $shade400 !default;
