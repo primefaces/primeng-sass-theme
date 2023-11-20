@@ -1,5 +1,14 @@
 # Changelog
 
+## [16.8.0](https://github.com/primefaces/primeng-sass-theme/tree/16.8.0) (2023-11-20)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.7.2...16.8.0)
+
+**Enhancements:**
+- PickList | Accessibility Enhancements [\#78](https://github.com/primefaces/primeng-sass-theme/issues/78)
+- OrderList | Accessibility Enhancements [\#74](https://github.com/primefaces/primeng-sass-theme/issues/74)
+- Tree | Accessibility Enhancemnets [\#73](https://github.com/primefaces/primeng-sass-theme/issues/73)
+- Calendar | Accessibility Enhancemnets [\#71](https://github.com/primefaces/primeng-sass-theme/issues/71)
+
 ## [16.7.2](https://github.com/primefaces/primeng-sass-theme/tree/16.7.2) (2023-11-08)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.7.1...16.7.2)
 
