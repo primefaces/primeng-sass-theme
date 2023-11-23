@@ -1,4 +1,8 @@
 # Changelog
+## [16.9.0](https://github.com/primefaces/primeng-sass-theme/tree/16.9.0) (2023-11-22)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.8.0...16.9.0)
+
+- No changes, provides semantic versioning compatibility for PrimeNG 16.9.0
 
 ## [16.8.0](https://github.com/primefaces/primeng-sass-theme/tree/16.8.0) (2023-11-20)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/16.7.2...16.8.0)
