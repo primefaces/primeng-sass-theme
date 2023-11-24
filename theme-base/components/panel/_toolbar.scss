@@ -3,7 +3,7 @@
     border: $panelHeaderBorder;
     padding: $panelHeaderPadding;
     border-radius: $borderRadius;
-    gap: $inlineSpacing;
+    gap: 0;
 
     .p-toolbar-separator {
         margin: 0 $inlineSpacing;

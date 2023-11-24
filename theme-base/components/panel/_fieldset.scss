@@ -6,8 +6,8 @@
 
     .p-fieldset-legend {
         padding: $panelHeaderPadding;
-        border: $panelHeaderBorder;
-        color: $panelHeaderTextColor;
+        border: none;
+        color: $primaryColor;
         background: $panelHeaderBg;
         font-weight: $panelHeaderFontWeight;
         border-radius: $borderRadius;
@@ -34,7 +34,7 @@
             }
 
             &:hover {
-                background: $panelHeaderHoverBg;
+                background: #beffef;
                 border-color: $panelHeaderHoverBorderColor;
                 color: $panelHeaderTextHoverColor;
             }

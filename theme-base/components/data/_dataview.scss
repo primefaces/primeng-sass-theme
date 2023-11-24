@@ -23,6 +23,9 @@
         color: $tableBodyRowTextColor;
         border: $dataViewContentBorder;
         padding: $dataViewContentPadding;
+        overflow: $dataViewContentOverflow;
+        max-height: $dataViewContentMaxheight;
+        height: $dataViewContentHeight;
     }
 
     &.p-dataview-list {

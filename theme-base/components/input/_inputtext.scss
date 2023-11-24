@@ -9,6 +9,7 @@
     transition: $formElementTransition;
     appearance: none;
     border-radius: $borderRadius;
+    width: 100% !important;
 
     &:enabled:hover {
         border-color: $inputHoverBorderColor;
@@ -51,6 +52,8 @@
 
 .p-input-icon-left > .p-inputtext {
     padding-left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+    background: #efefef;
+    border: none;
 }
 
 .p-input-icon-left.p-float-label > label {

@@ -13,6 +13,7 @@
 }
 
 .p-inputgroup {
+    margin-top: $inputGroupMarginTop;
     > .p-component,
     > .p-element,
     > .p-inputwrapper > .p-component > .p-inputtext,

@@ -1,5 +1,6 @@
 .p-inplace {
     .p-inplace-display {
+        display: flex !important;
         padding: $inplacePadding;
         border-radius: $borderRadius;
         transition: $formElementTransition;
@@ -12,6 +13,11 @@
         &:focus {
             @include focused();
         }
+    }
+
+    .p-inplace-content {
+        display: flex !important;
+        align-items: center !important;
     }
 }
 

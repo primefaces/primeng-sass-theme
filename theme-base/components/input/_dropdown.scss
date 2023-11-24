@@ -3,6 +3,7 @@
     border: $inputBorder;
     transition: $formElementTransition;
     border-radius: $borderRadius;
+    width: 100% !important;
 
     &:not(.p-disabled):hover {
         border-color: $inputHoverBorderColor;
@@ -35,14 +36,14 @@
 
     .p-dropdown-trigger {
         background: transparent;
-        color: $inputIconColor;
+        color: #00a1ff;
         width: $inputGroupAddOnMinWidth;
         border-top-right-radius: $borderRadius;
         border-bottom-right-radius: $borderRadius;
     }
 
     .p-dropdown-clear-icon {
-        color: $inputIconColor;
+        color: #00a1ff;
         right: $inputGroupAddOnMinWidth;
     }
 
@@ -89,6 +90,9 @@
             background: $inputListItemBg;
             transition: $listItemTransition;
             border-radius: $inputListItemBorderRadius;
+            white-space: break-spaces;
+            min-width: -webkit-fill-available;
+            max-width: min-content;
 
             &.p-highlight {
                 color: $highlightTextColor;

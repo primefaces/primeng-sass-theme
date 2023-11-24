@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
 $colors: (
     "blue": #3B82F6,
     "green": #22C55E,
@@ -26,12 +28,12 @@ $shade800:#343a40 !default;    //unused
 $shade900:#212529 !default;    //unused
 
 //global
-$fontFamily:'Inter var', sans-serif !default;
+$fontFamily: "Open Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $fontSize:1rem !default;
 $fontWeight:normal !default;
 $textColor:$shade700 !default;
 $textSecondaryColor:$shade600 !default;
-$borderRadius:6px !default;
+$borderRadius: 7px !default;
 $transitionDuration:.2s !default;
 $formElementTransition:background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration !default;
 $actionIconTransition:background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration !default;
@@ -52,7 +54,7 @@ $scaleLG:1.25 !default;
 $focusOutlineColor:$primaryLightColor !default;
 $focusOutline:0 none !default;
 $focusOutlineOffset:0 !default;
-$focusShadow:0 0 0 0.2rem $focusOutlineColor !default;
+$focusShadow: 0 0 0 0rem $focusOutlineColor !default;
 
 //action icons
 $actionIconWidth:2rem !default;
@@ -85,6 +87,7 @@ $inputFilledFocusBg:$shade000 !default;
 $inputGroupBg:$shade200 !default;
 $inputGroupTextColor:$shade600 !default;
 $inputGroupAddOnMinWidth: 3rem !default;
+$inputGroupMarginTop: 0;
 
 //input lists (e.g. dropdown, autocomplete, multiselect, orderlist)
 $inputListBg:$shade000 !default;
@@ -122,8 +125,11 @@ $passwordStrongBg:#29c76f !default;
 
 //button
 $buttonPadding:.75rem 1.25rem !default;
-$buttonIconOnlyWidth:3rem !default;
-$buttonIconOnlyPadding:.75rem 0 !default;
+$buttonIconOnlyWidth: 2rem !default;
+$buttonIconOnlyheight: 2rem;
+$buttonIconOnlyPadding: 0.563rem !default;
+$buttonIconOnlyMargin: 0.2rem;
+$BottonIconOlnyFocusShadow: none;
 $buttonBg:$primaryColor !default;
 $buttonTextColor:$primaryTextColor !default;
 $buttonBorder:1px solid $primaryColor !default;
@@ -163,7 +169,7 @@ $infoButtonHoverBorderColor:#2563EB !default;
 $infoButtonActiveBg:#1D4ED8 !default;
 $infoButtonTextActiveColor:$infoButtonTextColor !default;
 $infoButtonActiveBorderColor:#1D4ED8 !default;
-$infoButtonFocusShadow:0 0 0 0.2rem #BFDBFE !default;
+$infoButtonFocusShadow: none !default;
 
 $successButtonBg:#22C55E !default;
 $successButtonTextColor:#ffffff !default;
@@ -346,7 +352,7 @@ $panelHeaderBorderColor:$shade300 !default;
 $panelHeaderBorder:1px solid $shade300 !default;
 $panelHeaderBg:$shade100 !default;
 $panelHeaderTextColor:$shade800 !default;
-$panelHeaderFontWeight:700 !default;
+$panelHeaderFontWeight: 500 !default;
 $panelHeaderPadding:1.25rem !default;
 $panelToggleableHeaderPadding:.75rem 1.25rem !default;
 
@@ -359,7 +365,7 @@ $panelContentBorder:1px solid $shade300 !default;
 $panelContentBg:$shade000 !default;
 $panelContentEvenRowBg:scale-color($panelContentBg, $lightness: -1%) !default;
 $panelContentTextColor:$shade700 !default;
-$panelContentPadding:1.25rem !default;
+$panelContentPadding: 0.5rem !default;
 
 $panelFooterBorder:1px solid $shade300 !default;
 $panelFooterBg:$shade000 !default;
@@ -370,7 +376,7 @@ $panelFooterPadding:0.75rem 1.25rem !default;
 $accordionSpacing:4px !default;
 $accordionHeaderBorder:$panelHeaderBorder !default;
 $accordionHeaderBg:$panelHeaderBg !default;
-$accordionHeaderTextColor:$shade600 !default;
+$accordionHeaderTextColor: $shade900 !default;
 $accordionHeaderFontWeight:$panelHeaderFontWeight !default;
 $accordionHeaderPadding:$panelHeaderPadding !default;
 
@@ -392,27 +398,27 @@ $accordionContentTextColor:$panelContentTextColor !default;
 $accordionContentPadding:$panelContentPadding !default;
 
 //tabview
-$tabviewNavBorder:1px solid $shade300 !default;
+$tabviewNavBorder: none !default;
 $tabviewNavBorderWidth:0 0 2px 0 !default;
-$tabviewNavBg:$shade000 !default;
+$tabviewNavBg: transparent !default;
 
 $tabviewHeaderSpacing:0 !default;
 $tabviewHeaderBorder:solid $shade300 !default;
 $tabviewHeaderBorderWidth:0 0 2px 0 !default;
 $tabviewHeaderBorderColor:transparent transparent $shade300 transparent !default;
-$tabviewHeaderBg:$shade000 !default;
-$tabviewHeaderTextColor:$shade600 !default;
+$tabviewHeaderBg: #b3f2c3 !default;
+$tabviewHeaderTextColor: #000 !default;
 $tabviewHeaderFontWeight:$panelHeaderFontWeight !default;
 $tabviewHeaderPadding:$panelHeaderPadding !default;
-$tabviewHeaderMargin:0 0 -2px 0 !default;
+$tabviewHeaderMargin: 0 5px -2px 0 !default;
 
-$tabviewHeaderHoverBg:$shade000 !default;
+$tabviewHeaderHoverBg: $primaryColor !default;
 $tabviewHeaderHoverBorderColor:$shade500 !default;
-$tabviewHeaderTextHoverColor:$shade600 !default;
+$tabviewHeaderTextHoverColor: $shade000 !default;
 
 $tabviewHeaderActiveBg:$shade000 !default;
 $tabviewHeaderActiveBorderColor:$primaryColor !default;
-$tabviewHeaderTextActiveColor:$primaryColor !default;
+$tabviewHeaderTextActiveColor: #000 !default;
 
 $tabviewContentBorder:0 none !default;
 $tabviewContentBg:$panelContentBg !default;
@@ -429,14 +435,15 @@ $scrollPanelTrackBorder:0 none !default;
 $scrollPanelTrackBg:$shade100 !default;
 
 //card
-$cardBodyPadding:1.25rem !default;
+$cardBodyPadding: 0.5rem !default;
 $cardTitleFontSize:1.5rem !default;
 $cardTitleFontWeight:700 !default;
 $cardSubTitleFontWeight:400 !default;
 $cardSubTitleColor:$shade600 !default;
 $cardContentPadding:1.25rem 0 !default;
 $cardFooterPadding:1.25rem 0 0 0 !default;
-$cardShadow:0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12) !default;
+$cardShadow: none;
+$cardBorder: 1px solid #e1e1e1;
 
 //editor
 $editorToolbarBg:$panelHeaderBg !default;
@@ -455,7 +462,7 @@ $paginatorBorder:solid $shade200 !default;
 $paginatorBorderWidth:0 !default;
 $paginatorPadding:.5rem 1rem !default;
 $paginatorElementWidth:$buttonIconOnlyWidth !default;
-$paginatorElementHeight:$buttonIconOnlyWidth !default;
+$paginatorElementHeight: auto !default;
 $paginatorElementBg:transparent !default;
 $paginatorElementBorder:0 none !default;
 $paginatorElementIconColor:$shade600 !default;
@@ -471,13 +478,13 @@ $tableHeaderBorder:1px solid $shade300 !default;
 $tableHeaderBorderWidth:1px 0 1px 0 !default;
 $tableHeaderBg:$shade100 !default;
 $tableHeaderTextColor:$shade800 !default;
-$tableHeaderFontWeight:700 !default;
+$tableHeaderFontWeight: 500 !default;
 $tableHeaderPadding:1rem 1rem !default;
 
 $tableHeaderCellPadding:1rem 1rem !default;
-$tableHeaderCellBg:$shade100 !default;
+$tableHeaderCellBg: #e5f8f4 !default;
 $tableHeaderCellTextColor:$shade800 !default;
-$tableHeaderCellFontWeight:700 !default;
+$tableHeaderCellFontWeight: 500 !default;
 $tableHeaderCellBorder:1px solid $shade300 !default;
 $tableHeaderCellBorderWidth:0 0 1px 0 !default;
 $tableHeaderCellHoverBg:$shade200 !default;
@@ -502,7 +509,7 @@ $tableBodyCellPadding:1rem 1rem !default;
 $tableFooterCellPadding:1rem 1rem !default;
 $tableFooterCellBg:$shade100 !default;
 $tableFooterCellTextColor:$shade800 !default;
-$tableFooterCellFontWeight:700 !default;
+$tableFooterCellFontWeight:500 !default;
 $tableFooterCellBorder:1px solid $shade300 !default;
 $tableFooterCellBorderWidth:0 0 1px 0 !default;
 $tableResizerHelperBg:$primaryColor !default;
@@ -511,7 +518,7 @@ $tableFooterBorder:1px solid $shade300 !default;
 $tableFooterBorderWidth:0 0 1px 0 !default;
 $tableFooterBg:$shade100 !default;
 $tableFooterTextColor:$shade800 !default;
-$tableFooterFontWeight:700 !default;
+$tableFooterFontWeight:500 !default;
 $tableFooterPadding:1rem 1rem !default;
 
 $tableCellContentAlignment:left !default;
@@ -526,6 +533,9 @@ $dataViewContentPadding:0 !default;
 $dataViewContentBorder:0 none !default;
 $dataViewListItemBorder:solid $shade300 !default;
 $dataViewListItemBorderWidth:0 0 1px 0 !default;
+$dataViewContentOverflow: auto;
+$dataViewContentMaxheight: 65vh;
+$dataViewContentHeight: auto;
 
 //tree
 $treeContainerPadding:0.286rem !default;
@@ -601,8 +611,8 @@ $overlayContainerShadow:0 1px 3px rgba(0,0,0,.3) !default;
 $dialogHeaderBg:$shade000 !default;
 $dialogHeaderBorder:0 none !default;
 $dialogHeaderTextColor:$shade800 !default;
-$dialogHeaderFontWeight:700 !default;
-$dialogHeaderFontSize:1.25rem !default;
+$dialogHeaderFontWeight:500 !default;
+$dialogHeaderFontSize:1.7rem !default;
 $dialogHeaderPadding:1.5rem !default;
 $dialogContentPadding:0 1.5rem 2rem 1.5rem !default;
 $dialogFooterBorder:0 none !default;
@@ -656,7 +666,7 @@ $menuitemActiveBg:$highlightBg !default;
 $menuitemActiveFocusBg:$highlightFocusBg !default;
 $menuitemSubmenuIconFontSize:.875rem !default;
 $submenuHeaderMargin:0 !default;
-$submenuHeaderPadding:.75rem 1.25rem !default;
+$submenuHeaderPadding: 0.75rem 0.7rem !default;
 $submenuHeaderBg:$shade000 !default;
 $submenuHeaderTextColor:$shade800 !default;
 $submenuHeaderBorderRadius:0 !default;
@@ -831,10 +841,10 @@ $imagePreviewActionIconFontSize:1.5rem !default;
 $imagePreviewActionIconBorderRadius:50% !default;
 
 :root {
-    font-family:'Inter var', sans-serif;
+    font-family: $fontFamily;
     font-feature-settings: "cv02","cv03","cv04","cv11";
     font-variation-settings: normal;
-    --font-family:'Inter var', sans-serif;
+    --font-family:$fontFamily;
     --font-feature-settings: "cv02","cv03","cv04","cv11";
     --surface-a:#{$shade000};
     --surface-b:#{$shade100};

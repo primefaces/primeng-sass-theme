@@ -295,9 +295,9 @@
     transition: $actionIconTransition;
 
     &:enabled:hover {
-        color: $actionIconHoverColor;
+        color: $shade000;
         border-color: $actionIconHoverBorderColor;
-        background: $actionIconHoverBg;
+        background: $primaryColor;
     }
 
     &:focus-visible {

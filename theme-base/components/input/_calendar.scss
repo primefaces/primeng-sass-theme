@@ -256,6 +256,10 @@ p-calendar.p-calendar-clearable .p-calendar-w-btn {
     }
 }
 
+.p-calendar {
+    width: 100%;
+}
+
 @media screen and (max-width: $calendarBreakpoint) {
     .p-datepicker {
         table {

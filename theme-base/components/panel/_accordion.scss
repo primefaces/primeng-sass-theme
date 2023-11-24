@@ -8,9 +8,18 @@
             font-weight: $accordionHeaderFontWeight;
             border-radius: $borderRadius;
             transition: $listItemTransition;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            font-size: 18px;
+            font-weight: bold;
 
             .p-accordion-toggle-icon {
                 margin-right: $inlineSpacing;
+                border: 1px solid;
+                padding: 5px 16px 4px 5px;
+                border-radius: 5px;
+                font-size: 11px;
             }
         }
 

@@ -23,7 +23,7 @@
             width: $radiobuttonIconSize;
             height: $radiobuttonIconSize;
             transition-duration: $transitionDuration;
-            background-color: $radiobuttonIconActiveColor;
+            background-color: transparent;
         }
 
         &.p-highlight {
