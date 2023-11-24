@@ -844,7 +844,7 @@ $imagePreviewActionIconBorderRadius:50% !default;
     font-family: $fontFamily;
     font-feature-settings: "cv02","cv03","cv04","cv11";
     font-variation-settings: normal;
-    --font-family:$fontFamily;
+    --font-family:#{$fontFamily};
     --font-feature-settings: "cv02","cv03","cv04","cv11";
     --surface-a:#{$shade000};
     --surface-b:#{$shade100};
