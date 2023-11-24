@@ -1,25 +1,32 @@
 {
-    "name": "primeng-sass-theme",
-    "version": "16.9.1",
-    "description": "PrimeNG Sass Theme",
-    "homepage": "https://primeng.org/",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
-    },
-    "keywords": [
-      "primeng",
-      "angular",
-      "ui framework",
-      "component framework",
-      "ui library",
-      "component library",
-      "material",
-      "bootstrap"
-    ],
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/primefaces/primeng-sass-theme/issues"
-    }
+  "name": "primeng-sass-theme",
+  "version": "16.9.1",
+  "description": "PrimeNG Sass Theme",
+  "homepage": "https://primeng.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
+  },
+  "keywords": [
+    "primeng",
+    "angular",
+    "ui framework",
+    "component framework",
+    "ui library",
+    "component library",
+    "material",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+  },
+  "scripts": {
+    "ih-build": "sass --update ./themes/lara/lara-light/teal/theme.scss:../investigation-front/src/assets/theme.css --no-source-map",
+    "build": "sass --update ./themes/lara/lara-light/teal/theme.scss:../custom-ng-components/src/theme.css --no-source-map",
+    "watch": "watch \"npm run build\" ."
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
   }
-  
+}
