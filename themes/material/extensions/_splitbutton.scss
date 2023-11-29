@@ -2,14 +2,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($buttonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($buttonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($buttonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($buttonBg, 0.16);
             }
         }
     }
@@ -52,10 +50,8 @@
 
     &.p-button-raised {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    box-shadow: $raisedButtonShadow;
-                }
+            &:not(:disabled):focus {
+                box-shadow: $raisedButtonShadow;
             }
         }
     }
@@ -65,14 +61,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($secondaryButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($secondaryButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($secondaryButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($secondaryButtonBg, 0.16);
             }
         }
     }
@@ -82,14 +76,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($infoButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($infoButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($infoButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($infoButtonBg, 0.16);
             }
         }
     }
@@ -99,14 +91,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($successButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($successButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($successButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($successButtonBg, 0.16);
             }
         }
     }
@@ -116,14 +106,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($warningButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($warningButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($warningButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($warningButtonBg, 0.16);
             }
         }
     }
@@ -133,14 +121,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($helpButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($helpButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($helpButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($helpButtonBg, 0.16);
             }
         }
     }
@@ -150,14 +136,12 @@
     &.p-button-text,
     &.p-button-outlined {
         > .p-button {
-            @include button-states {
-                &:focus {
-                    background: rgba($dangerButtonBg, .12);
-                }
+            &:not(:disabled):focus {
+                background: rgba($dangerButtonBg, 0.12);
+            }
 
-                &:active {
-                    background: rgba($dangerButtonBg, .16);
-                }
+            &:not(:disabled):active {
+                background: rgba($dangerButtonBg, 0.16);
             }
         }
     }
