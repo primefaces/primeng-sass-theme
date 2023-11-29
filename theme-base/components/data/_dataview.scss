@@ -28,15 +28,6 @@
         height: $dataViewContentHeight;
     }
 
-    &.p-dataview-list {
-        .p-dataview-content {
-            > .p-grid > div {
-                border: $dataViewListItemBorder;
-                border-width: $dataViewListItemBorderWidth;
-            }
-        }
-    }
-
     .p-dataview-footer {
         background: $tableFooterBg;
         color: $tableFooterTextColor;

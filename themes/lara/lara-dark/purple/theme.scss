@@ -1,10 +1,10 @@
-$primaryColor: #C4B5FD !default;
-$primaryLightColor: rgba(196, 181, 253, .5) !default;
-$primaryDarkColor: scale-color($primaryColor, $lightness: -5%) !default;
-$primaryDarkerColor: scale-color($primaryColor, $lightness: -10%) !default;
-$primaryTextColor: #1c2127 !default;
+$primaryColor: #a78bfa !default;
+$primaryLightColor: #c4b5fd !default;
+$primaryLighterColor: #ddd6fe!default;
+$primaryLightestColor: rgba(167, 139, 250, .2) !default;
+$primaryTextColor: #030712 !default;
 
-$highlightBg:rgba(196, 181, 253, .16) !default;
+$highlightBg:rgba(167, 139, 250, .16) !default;
 $highlightTextColor: rgba(255,255,255,.87) !default;
 $highlightFocusBg: rgba($primaryColor, .24) !default;
 
