@@ -1,75 +1,75 @@
 @mixin icon-override($icon) {
-	&:before {
-		content: $icon;
-	}
+    &:before {
+        content: $icon;
+    }
 }
 
 @mixin focused() {
-	outline: $focusOutline;
+    outline: $focusOutline;
     outline-offset: $focusOutlineOffset;
     box-shadow: $focusShadow;
 }
 
 @mixin focused-inset() {
-	outline: $focusOutline;
+    outline: $focusOutline;
     outline-offset: $focusOutlineOffset;
     box-shadow: inset $focusShadow;
 }
 
 @mixin focused-input() {
-	@include focused();
-	border-color: $inputFocusBorderColor;
+    @include focused();
+    border-color: $inputFocusBorderColor;
 }
 
 @mixin focused-listitem() {
-	outline: $focusOutline;
+    outline: $focusOutline;
     outline-offset: $focusOutlineOffset;
     box-shadow: $inputListItemFocusShadow;
 }
 
 @mixin invalid-input() {
-	border-color: $inputErrorBorderColor;
+    border-color: $inputErrorBorderColor;
 }
 
 @mixin menuitem-link {
-	padding: $menuitemPadding;
-	color: $menuitemTextColor;
+    padding: $menuitemPadding;
+    color: $menuitemTextColor;
     border-radius: $menuitemBorderRadius;
     transition: $listItemTransition;
     user-select: none;
 
-	.p-menuitem-text {
+    .p-menuitem-text {
         color: $menuitemTextColor;
-	}
+    }
 
-	.p-menuitem-icon {
-		color: $menuitemIconColor;
-		margin-right: $inlineSpacing;
+    .p-menuitem-icon {
+        color: $menuitemIconColor;
+        margin-right: $inlineSpacing;
     }
 
     .p-submenu-icon {
         color: $menuitemIconColor;
     }
 
-	&:not(.p-disabled):hover {
-		background: $menuitemHoverBg;
+    &:not(.p-disabled):hover {
+        background: $menuitemHoverBg;
 
-		.p-menuitem-text {
-			color: $menuitemTextHoverColor;
-		}
+        .p-menuitem-text {
+            color: $menuitemTextHoverColor;
+        }
 
-		.p-menuitem-icon {
-			color: $menuitemIconHoverColor;
+        .p-menuitem-icon {
+            color: $menuitemIconHoverColor;
         }
 
         .p-submenu-icon {
             color: $menuitemIconHoverColor;
         }
-	}
+    }
 
-	&:focus {
-		@include focused-listitem();
-	}
+    &:focus {
+        @include focused-listitem();
+    }
 }
 
 @mixin menuitem {
@@ -86,12 +86,12 @@
             .p-menuitem-text {
                 color: $menuitemTextColor;
             }
-        
+
             .p-menuitem-icon {
                 color: $menuitemIconColor;
                 margin-right: $inlineSpacing;
             }
-            
+
             .p-submenu-icon {
                 color: $menuitemIconColor;
             }
@@ -108,7 +108,8 @@
                     color: $menuitemTextActiveColor;
                 }
 
-                .p-menuitem-icon, .p-submenu-icon {
+                .p-menuitem-icon,
+                .p-submenu-icon {
                     color: $menuitemIconActiveColor;
                 }
             }
@@ -126,13 +127,14 @@
             > .p-menuitem-content {
                 color: $menuitemTextFocusColor;
                 background: $menuitemFocusBg;
-    
+
                 .p-menuitem-link {
                     .p-menuitem-text {
                         color: $menuitemTextFocusColor;
                     }
-                
-                    .p-menuitem-icon, .p-submenu-icon {
+
+                    .p-menuitem-icon,
+                    .p-submenu-icon {
                         color: $menuitemIconFocusColor;
                     }
                 }
@@ -143,13 +145,14 @@
             &:hover {
                 color: $menuitemTextHoverColor;
                 background: $menuitemHoverBg;
-    
+
                 .p-menuitem-link {
                     .p-menuitem-text {
                         color: $menuitemTextHoverColor;
                     }
-    
-                    .p-menuitem-icon, .p-submenu-icon {
+
+                    .p-menuitem-icon,
+                    .p-submenu-icon {
                         color: $menuitemIconHoverColor;
                     }
                 }
@@ -159,19 +162,19 @@
 }
 
 @mixin horizontal-rootmenuitem-link {
-	padding: $horizontalMenuRootMenuitemPadding;
-	color: $horizontalMenuRootMenuitemTextColor;
+    padding: $horizontalMenuRootMenuitemPadding;
+    color: $horizontalMenuRootMenuitemTextColor;
     border-radius: $horizontalMenuRootMenuitemBorderRadius;
     transition: $listItemTransition;
     user-select: none;
 
-	.p-menuitem-text {
+    .p-menuitem-text {
         color: $horizontalMenuRootMenuitemTextColor;
-	}
+    }
 
-	.p-menuitem-icon {
-		color: $horizontalMenuRootMenuitemIconColor;
-		margin-right: $inlineSpacing;
+    .p-menuitem-icon {
+        color: $horizontalMenuRootMenuitemIconColor;
+        margin-right: $inlineSpacing;
     }
 
     .p-submenu-icon {
@@ -179,25 +182,25 @@
         margin-left: $inlineSpacing;
     }
 
-	&:not(.p-disabled):hover {
-		background: $horizontalMenuRootMenuitemHoverBg;
+    &:not(.p-disabled):hover {
+        background: $horizontalMenuRootMenuitemHoverBg;
 
-		.p-menuitem-text {
-			color: $horizontalMenuRootMenuitemTextHoverColor;
-		}
+        .p-menuitem-text {
+            color: $horizontalMenuRootMenuitemTextHoverColor;
+        }
 
-		.p-menuitem-icon {
-			color: $horizontalMenuRootMenuitemIconHoverColor;
+        .p-menuitem-icon {
+            color: $horizontalMenuRootMenuitemIconHoverColor;
         }
 
         .p-submenu-icon {
             color: $horizontalMenuRootMenuitemIconHoverColor;
         }
-	}
+    }
 
-	&:focus {
-		@include focused-listitem();
-	}
+    &:focus {
+        @include focused-listitem();
+    }
 }
 
 @mixin horizontal-rootmenuitem {
@@ -213,12 +216,12 @@
             .p-menuitem-text {
                 color: $horizontalMenuRootMenuitemTextColor;
             }
-        
+
             .p-menuitem-icon {
                 color: $horizontalMenuRootMenuitemIconColor;
                 margin-right: $inlineSpacing;
             }
-            
+
             .p-submenu-icon {
                 color: $horizontalMenuRootMenuitemIconColor;
                 margin-left: $inlineSpacing;
@@ -231,13 +234,14 @@
             &:hover {
                 color: $horizontalMenuRootMenuitemTextHoverColor;
                 background: $horizontalMenuRootMenuitemHoverBg;
-    
+
                 .p-menuitem-link {
                     .p-menuitem-text {
                         color: $horizontalMenuRootMenuitemTextHoverColor;
                     }
-    
-                    .p-menuitem-icon, .p-submenu-icon {
+
+                    .p-menuitem-icon,
+                    .p-submenu-icon {
                         color: $horizontalMenuRootMenuitemIconHoverColor;
                     }
                 }
@@ -247,18 +251,18 @@
 }
 
 @mixin placeholder {
-	::-webkit-input-placeholder {
-		@content
-	}
-	:-moz-placeholder {
-		@content
-	}
-	::-moz-placeholder {
-		@content
-	}
-	:-ms-input-placeholder {
-		@content
-	}
+    ::-webkit-input-placeholder {
+        @content;
+    }
+    :-moz-placeholder {
+        @content;
+    }
+    ::-moz-placeholder {
+        @content;
+    }
+    :-ms-input-placeholder {
+        @content;
+    }
 }
 
 @mixin scaledPadding($val, $scale) {
@@ -276,7 +280,6 @@
                 .p-menuitem-link {
                     padding-left: $val * ($index + 1);
                 }
-    
             }
             @if $index < $length {
                 @include nested-submenu-indents($val, $index + 2, $length);
@@ -313,17 +316,8 @@
     @return mix(#000, $color, $percentage);
 }
 
-@mixin button-states {
-    // <button> and <a> tags support :enabled selector.
-
-    &:enabled,
-    &:not(button):not(a):not(.p-disabled) {
-        @content;
-    }
-}
-
 @mixin focused-inset() {
-	outline: $focusOutline;
+    outline: $focusOutline;
     outline-offset: $focusOutlineOffset;
     box-shadow: inset $focusShadow;
 }
