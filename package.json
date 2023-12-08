@@ -22,8 +22,7 @@
     "url": "https://github.com/primefaces/primeng-sass-theme/issues"
   },
   "scripts": {
-    "ih-build": "sass --update ./themes/lara/lara-light/teal/theme.scss:../investigation-front/src/assets/theme.css --no-source-map",
-    "build": "sass --update ./themes/lara/lara-light/teal/theme.scss:../custom-ng-components/src/theme.css --no-source-map",
+    "build": "sass --update ./themes/lara/lara-light/teal/theme.scss:../investigation-front/src/assets/theme.css --no-source-map",
     "watch": "watch \"npm run build\" ."
   },
   "dependencies": {
