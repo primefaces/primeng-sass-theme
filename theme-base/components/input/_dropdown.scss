@@ -145,3 +145,7 @@
         }
     }
 }
+
+p-dropdown.ng-dirty.ng-invalid > .p-multiselect {
+    @include invalid-input();
+}
