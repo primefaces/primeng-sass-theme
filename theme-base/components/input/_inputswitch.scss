@@ -55,6 +55,6 @@
     }
 }
 
-p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
+p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch > .p-inputswitch-slider {
     @include invalid-input();
 }
