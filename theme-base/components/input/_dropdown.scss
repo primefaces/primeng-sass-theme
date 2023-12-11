@@ -146,6 +146,6 @@
     }
 }
 
-p-dropdown.ng-dirty.ng-invalid > .p-multiselect {
+p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
     @include invalid-input();
 }
