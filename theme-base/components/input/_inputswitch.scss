@@ -8,7 +8,7 @@
         background: $inputSwitchSliderOffBg;
         transition: $formElementTransition;
         border-radius: $inputSwitchBorderRadius;
-
+        border:1px solid transparent;
         &:before {
             background: $inputSwitchHandleOffBg;
             width: $inputSwitchHandleWidth;
