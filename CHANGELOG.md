@@ -1,5 +1,12 @@
 # Changelog
 
+## [17.1.0](https://github.com/primefaces/primeng-sass-theme/tree/17.1.0) (2023-12-13)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0...17.1.0)
+
+**Fixed bugs:**
+- Checkbox | Add missing invalid styles [\#86](https://github.com/primefaces/primeng-sass-theme/issues/86)
+- Dropdown | missing invalid styles [\#77](https://github.com/primefaces/primeng-sass-theme/issues/77)
+
 ## [17.0.0](https://github.com/primefaces/primeng-sass-theme/tree/17.0.0) (2023-12-06)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0-rc.1...17.0.0)
 
