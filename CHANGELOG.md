@@ -1,5 +1,12 @@
 # Changelog
 
+## [17.2.0](https://github.com/primefaces/primeng-sass-theme/tree/17.2.0) (2023-12-20)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.1.0...17.2.0)
+
+**Fixed bugs:**
+- Lara Light Teal: $highlightBg implementation defect [\#88](https://github.com/primefaces/primeng-sass-theme/issues/88)
+
+
 ## [17.1.0](https://github.com/primefaces/primeng-sass-theme/tree/17.1.0) (2023-12-13)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.0.0...17.1.0)
 
