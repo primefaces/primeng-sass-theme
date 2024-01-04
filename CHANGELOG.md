@@ -1,4 +1,11 @@
 # Changelog
+## [17.3.1](https://github.com/primefaces/primeng-sass-theme/tree/17.3.1) (2024-01-04)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.0...17.3.1)
+
+**Fixed bugs:**
+- Splitter | Add missing focus-visible & material extension styles [\#89](https://github.com/primefaces/primeng-sass-theme/issues/89)
+- ScrollPanel | Add missing focus-visible & material extension styles [\#90](https://github.com/primefaces/primeng-sass-theme/issues/90)
+
 ## [17.3.0](https://github.com/primefaces/primeng-sass-theme/tree/17.3.0) (2023-12-28)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.2.0...17.3.0)
 
