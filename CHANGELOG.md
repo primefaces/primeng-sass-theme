@@ -1,4 +1,10 @@
 # Changelog
+## [17.3.2](https://github.com/primefaces/primeng-sass-theme/tree/17.3.2) (2024-01-10)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.1...17.3.2)
+
+**Fixed bugs:**
+- Tree | Add missing outline rule [\#91](https://github.com/primefaces/primeng-sass-theme/issues/91)
+
 ## [17.3.1](https://github.com/primefaces/primeng-sass-theme/tree/17.3.1) (2024-01-04)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.0...17.3.1)
 
