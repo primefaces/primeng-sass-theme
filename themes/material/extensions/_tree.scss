@@ -1,13 +1,13 @@
 .p-tree {
     .p-tree-container {
         .p-treenode {
-            .p-treenode-content {
-                &:focus {
-                    background: $emphasis-lower;
+            outline: 0 none;
+            
+            &:focus > .p-treenode-content {
+                background: $emphasis-lower;
 
-                    &.p-highlight {
-                        background: rgba($primaryColor, .24);
-                    }
+                &.p-highlight {
+                    background: rgba($primaryColor, .24);
                 }
             }
         }
