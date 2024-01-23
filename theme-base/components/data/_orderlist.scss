@@ -6,16 +6,23 @@
 			margin-bottom: $inlineSpacing;
 		}
 	}
+	
+	.p-orderlist-list-container {
+        background: $panelContentBg;
+        border: $panelContentBorder;
+        border-radius: $borderRadius;
+        transition: $formElementTransition;
+        outline-color: transparent;
+
+        &.p-focus {
+            @include focused-input();
+        }
+    }
 
 	.p-orderlist-header {
-		background: $panelHeaderBg;
 		color: $panelHeaderTextColor;
-		border: $panelHeaderBorder;
-		padding: $panelHeaderPadding;
-		border-bottom: 0 none;
-		border-top-right-radius: $borderRadius;
-		border-top-left-radius: $borderRadius;
-
+        padding: $panelHeaderPadding;
+        font-weight: $panelHeaderFontWeight;
 		.p-orderlist-title {
 			font-weight: $panelHeaderFontWeight;
 		}
@@ -38,14 +45,12 @@
 	}
 
 	.p-orderlist-list {
-		border: $panelContentBorder;
-		background: $panelContentBg;
 		color: $panelContentTextColor;
-		padding: $inputListPadding;
-		border-bottom-right-radius: $borderRadius;
-		border-bottom-left-radius: $borderRadius;
+        padding: $inputListPadding;
 		outline: 0 none;
-
+		&:not(:first-child) {
+            border-top: $panelContentBorder;
+        }
 		.p-orderlist-item {
 			padding: $inputListItemPadding;
 			margin: $inputListItemMargin;

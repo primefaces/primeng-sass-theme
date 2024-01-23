@@ -7,14 +7,22 @@
 		}
 	}
 
+	.p-picklist-list-wrapper {
+        background: $panelContentBg;
+        border: $panelContentBorder;
+        border-radius: $borderRadius;
+        transition: $formElementTransition;
+        outline-color: transparent;
+
+        &.p-focus {
+            @include focused-input();
+        }
+    }
+
 	.p-picklist-header {
-		background: $panelHeaderBg;
-		color: $panelHeaderTextColor;
-		border: $panelHeaderBorder;
-		padding: $panelHeaderPadding;
-		border-bottom: 0 none;
-		border-top-right-radius: $borderRadius;
-		border-top-left-radius: $borderRadius;
+	  color: $panelHeaderTextColor;
+        padding: $panelHeaderPadding;
+        font-weight: $panelHeaderFontWeight;
 
 		.p-picklist-title {
 			font-weight: $panelHeaderFontWeight;
@@ -38,14 +46,13 @@
 	}
 
 	.p-picklist-list {
-		border: $panelContentBorder;
-		background: $panelContentBg;
 		color: $panelContentTextColor;
-		padding: $inputListPadding;
-		border-bottom-right-radius: $borderRadius;
-		border-bottom-left-radius: $borderRadius;
-		outline: 0 none;
+        padding: $inputListPadding;
+        outline: 0 none;
 
+		&:not(:first-child) {
+            border-top: $panelContentBorder;
+        }
 		.p-picklist-item {
 			padding: $inputListItemPadding;
 			margin: $inputListItemMargin;
