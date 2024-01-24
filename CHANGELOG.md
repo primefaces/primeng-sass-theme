@@ -1,5 +1,11 @@
 # Changelog
 
+## [17.4.0](https://github.com/primefaces/primeng-sass-theme/tree/17.4.0) (2023-01-24)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.3...17.4.0)
+
+**Enhancements:**
+- PickList & OrderList | theme adjustments [\#92](https://github.com/primefaces/primeng-sass-theme/issues/92)
+
 ## [17.3.3](https://github.com/primefaces/primeng-sass-theme/tree/17.3.3) (2023-01-18)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.3.2...17.3.3)
 
