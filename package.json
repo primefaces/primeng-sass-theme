@@ -1,24 +1,29 @@
 {
-    "name": "primeng-sass-theme",
-    "version": "17.4.0",
-    "description": "PrimeNG Sass Theme",
-    "homepage": "https://primeng.org/",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
-    },
-    "keywords": [
-        "primeng",
-        "angular",
-        "ui framework",
-        "component framework",
-        "ui library",
-        "component library",
-        "material",
-        "bootstrap"
-    ],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/primefaces/primeng-sass-theme/issues"
-    }
+  "name": "primeng-sass-theme",
+  "version": "17.4.0",
+  "description": "PrimeNG Sass Theme",
+  "homepage": "https://primeng.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primefaces/primeng-sass-theme.git"
+  },
+  "keywords": [
+    "primeng",
+    "angular",
+    "ui framework",
+    "component framework",
+    "ui library",
+    "component library",
+    "material",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+  },
+  "scripts": {
+    "build:dark": "sass --update themes/arya/arya-orange/theme.scss:themes/arya/arya-orange/theme.css",
+    "build:black": "sass --update themes/arya-black/arya-orange/theme.scss:themes/arya-black/arya-orange/theme.css",
+    "build:light": "sass --update themes/saga/saga-orange/theme.scss:themes/saga/saga-orange/theme.css"
+  }
 }
