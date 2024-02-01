@@ -48,7 +48,7 @@
 }
 
 .p-inputwrapper-filled {
-    &.p-multiselect {
+    .p-multiselect {
         &.p-multiselect-chip {
             .p-multiselect-label {
                 padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
