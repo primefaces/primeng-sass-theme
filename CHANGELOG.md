@@ -1,4 +1,9 @@
 # Changelog
+## [17.6.0](https://github.com/primefaces/primeng-sass-theme/tree/17.6.0) (2024-02-07)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.5.0...17.6.0)
+
+- No changes, provides semantic versioning compatibility for PrimeNG 17.6.0
+
 ## [17.5.0](https://github.com/primefaces/primeng-sass-theme/tree/17.5.0) (2024-02-01)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.4.0...17.5.0)
 
