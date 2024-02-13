@@ -110,6 +110,12 @@
             background: $submenuHeaderBg;
             font-weight: $submenuHeaderFontWeight;
         }
+
+        .p-autocomplete-empty-message {
+            padding: $inputListItemPadding;
+            color: $inputListItemTextColor;
+            background: $inputListItemBg;
+        }
     }
 }
 
