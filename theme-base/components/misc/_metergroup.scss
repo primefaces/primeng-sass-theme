@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.p-metergroup-vertical {
+    height: 100%;
+}
+
 .p-metergroup-vertical .p-metergroup-meters {
     flex-direction: column;
 }
