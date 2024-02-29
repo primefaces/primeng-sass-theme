@@ -1,4 +1,11 @@
 # Changelog
+## [17.9.0](https://github.com/primefaces/primeng-sass-theme/tree/17.9.0) (2024-02-29)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.8.0...17.9.0)
+
+**Implemented New Features and Enhancements:**
+- Add metergroup styles [\#99](https://github.com/primefaces/primeng-sass-theme/issues/99)
+- New Components | IconField & InputIcon [\#102](https://github.com/primefaces/primeng-sass-theme/issues/102)
+
 ## [17.8.0](https://github.com/primefaces/primeng-sass-theme/tree/17.8.0) (2024-02-23)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.7.0...17.8.0)
 
