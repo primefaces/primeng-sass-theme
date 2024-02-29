@@ -43,29 +43,18 @@
     color: $inputErrorBorderColor;
 }
 
-.p-input-icon-left > .p-icon-wrapper.p-icon,
-.p-input-icon-left > i:first-of-type {
-    left: nth($inputPadding, 2);
-    color: $inputIconColor;
-}
-
-.p-input-icon-left > .p-inputtext {
+.p-icon-field-left > .p-inputtext {
     padding-left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
 
-.p-input-icon-left.p-float-label > label {
+.p-icon-field-left.p-float-label > label {
     left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
 
-.p-input-icon-right > .p-icon-wrapper,
-.p-input-icon-right > i:last-of-type {
-    right: nth($inputPadding, 2);
-    color: $inputIconColor;
-}
-
-.p-input-icon-right > .p-inputtext {
+.p-icon-field-right > .p-inputtext {
     padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
+
 
 @include placeholder {
     color: $inputPlaceholderTextColor
