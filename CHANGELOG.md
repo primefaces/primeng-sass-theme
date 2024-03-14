@@ -3,7 +3,8 @@
 ## [17.11.0](https://github.com/primefaces/primeng-sass-theme/tree/17.11.0) (2024-03-14)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.10.0...17.11.0)
 
-- No changes, provides semantic versioning compatibility for PrimeNG 17.11.0
+**Enhancements:**
+- InputOtp | add styles [\#104](https://github.com/primefaces/primeng-sass-theme/issues/104)
 
 ## [17.10.0](https://github.com/primefaces/primeng-sass-theme/tree/17.10.0) (2024-03-07)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.9.0...17.10.0)
