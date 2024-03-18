@@ -1,0 +1,26 @@
+@use 'sass:math';
+
+.p-tag {
+    background: var(--primary-100);
+    color: var(--primary-700);
+
+    &.p-tag-success {
+        background: var(--green-100);
+        color: var(--green-700);
+    }
+
+    &.p-tag-info {
+        background: var(--blue-100);
+        color: var(--blue-700);
+    }
+
+    &.p-tag-warning {
+        background: var(--orange-100);
+        color: var(--orange-700);
+    }
+
+    &.p-tag-danger {
+        background: var(--red-100);
+        color: var(--red-700);
+    }
+}

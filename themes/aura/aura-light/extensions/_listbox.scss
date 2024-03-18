@@ -1,0 +1,14 @@
+.p-listbox {
+    box-shadow: $inputShadow;
+
+    &.p-disabled {
+        opacity: 1;
+        background-color: $disabledInputBg;
+
+        .p-listbox-list {    
+            .p-listbox-item {
+                color: $textSecondaryColor;
+            }
+        }
+    }
+}

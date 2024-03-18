@@ -1,0 +1,11 @@
+.p-colorpicker-preview {
+    padding: 0;
+
+    &:enabled:focus {
+        outline-offset: $focusOutlineOffset;
+    }
+
+    &.p-inputtext.p-disabled {
+        opacity: $disabledOpacity;
+    }
+}

@@ -1,0 +1,14 @@
+.p-stepper {
+    .p-stepper-header {
+        &.p-highlight {
+            .p-stepper-number {
+                background: $stepsItemBg;
+                color: $primaryColor;
+            }
+
+            .p-stepper-title {
+                color: $primaryColor;
+            }
+        }
+    }
+}

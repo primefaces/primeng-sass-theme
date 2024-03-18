@@ -1,0 +1,19 @@
+.p-datepicker-buttonbar {
+    .p-button {
+        padding: .25rem .75rem;
+        font-size: .875rem;
+    }
+}
+
+.p-datepicker {
+    .p-datepicker-group-container + .p-timepicker {
+        margin-top: .5rem;
+        padding-top: .5rem;
+    }
+
+    table {
+        th {
+            font-weight: 500;       
+        }
+    }
+}

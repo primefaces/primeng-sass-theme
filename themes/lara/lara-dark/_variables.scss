@@ -54,6 +54,7 @@ $scaleLG: 1.25 !default;
 $focusOutlineColor: $primaryLightestColor !default;
 $focusOutline: 0 none !default;
 $focusOutlineOffset: 0 !default;
+$inputFocusOutlineOffset:$focusOutlineOffset !default;
 $focusShadow: 0 0 0 0.2rem $focusOutlineColor !default;
 
 //action icons
