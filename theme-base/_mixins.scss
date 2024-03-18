@@ -17,8 +17,10 @@
 }
 
 @mixin focused-input() {
-    @include focused();
-    border-color: $inputFocusBorderColor;
+    outline: $focusOutline;
+    outline-offset: $inputFocusOutlineOffset;
+    box-shadow: $focusShadow;
+	border-color: $inputFocusBorderColor;
 }
 
 @mixin focused-listitem() {
