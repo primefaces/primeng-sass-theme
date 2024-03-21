@@ -1,0 +1,14 @@
+.p-overlaypanel {
+    box-shadow: $inputOverlayShadow;
+    
+    .p-overlaypanel-content {
+        padding: .75rem;
+    }
+
+    .p-overlaypanel-close {
+        @include action-icon();
+        position: absolute;
+        top: .25rem;
+        right: .25rem;
+    }
+}

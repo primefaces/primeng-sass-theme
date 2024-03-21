@@ -1,0 +1,37 @@
+.p-picklist-buttons .p-button {
+    transition: opacity $transitionDuration, outline-color $transitionDuration, background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration;
+
+    @include secondary-button();
+}
+
+.p-picklist {    
+    .p-picklist-header {
+        background: $inputListHeaderBg;
+        color: $inputListHeaderTextColor;
+        border: $inputListBorder;
+        border: 0 none;
+        padding: .75rem 1rem .5rem 1rem;
+        font-weight: 600;
+        color: $textSecondaryColor;
+        border-top-right-radius: $borderRadius;
+        border-top-left-radius: $borderRadius;
+    }
+
+    .p-picklist-list {
+        border: $inputListBorder;
+        border: 0 none;
+        background: $inputListBg;
+        color: $inputListTextColor;
+        padding: $inputListPadding;
+        border-bottom-right-radius: $borderRadius;
+        border-bottom-left-radius: $borderRadius;
+
+        .p-picklist-item {
+            border-radius: $borderRadius;
+        }
+
+        &:not(:first-child) {
+            border: 0 none;
+        }
+    } 
+}

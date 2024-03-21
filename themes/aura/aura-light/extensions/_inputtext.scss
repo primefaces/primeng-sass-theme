@@ -1,0 +1,9 @@
+.p-inputtext {
+    box-shadow: $inputShadow;
+}
+
+.p-inputtext:disabled {
+    opacity: 1;
+    background-color: $disabledInputBg;
+    color: $textSecondaryColor;
+}

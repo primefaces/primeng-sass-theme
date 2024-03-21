@@ -1,0 +1,22 @@
+.p-card {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .p-card-caption {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .p-card-title,
+        .p-card-subtitle {
+            margin-bottom: 0;
+        }
+    }
+
+    .p-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

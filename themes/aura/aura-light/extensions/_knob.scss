@@ -1,0 +1,9 @@
+.p-knob svg {
+    border-radius: $borderRadius;
+    outline-color: transparent;
+    transition: outline-color $transitionDuration;
+
+    &:focus-visible {
+        @include focused();
+    }
+}

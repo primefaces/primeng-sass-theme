@@ -1,0 +1,37 @@
+.p-organizationchart {
+    .p-organizationchart-node-content {
+        padding: 0.75rem 1rem;
+        border-radius: $borderRadius;
+
+        .p-node-toggler {
+            transition: $actionIconTransition;
+            border: 1px solid $organizationChartConnectorColor;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            .p-node-toggler-icon {
+                position: static;
+            }
+        }
+
+        &:has(.p-node-toggler) {
+            padding: 0.75rem 1rem 1.25rem 1rem;
+        }
+    }
+
+    .p-organizationchart-lines {
+        :nth-child(1 of .p-organizationchart-line-left) {
+            border-right: 0 none;
+        }
+
+        :nth-last-child(1 of .p-organizationchart-line-left) {
+            border-top-right-radius: $borderRadius;
+        }
+
+        :nth-child(1 of .p-organizationchart-line-right) {
+            border-left: 1px solid $organizationChartConnectorColor;
+            border-top-left-radius: $borderRadius;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.p-multiselect-panel {    
+    .p-multiselect-header {
+        padding-left: 1rem;   
+        padding-right: 1rem;
+    }
+}
+
+.p-multiselect {
+    box-shadow: $inputShadow;
+
+    &.p-disabled {
+        opacity: 1;
+        background-color: $disabledInputBg;
+
+        .p-multiselect-label {
+            color: $textSecondaryColor;
+        }
+    }
+
+    &.p-multiselect-chip {
+        .p-multiselect-token {
+            border-radius: 4px;
+            margin-right: .25rem;
+            
+            .p-multiselect-token-icon {
+                margin-left: .375rem;
+            }
+        }
+    }
+}
+
+.p-inputwrapper-filled {
+    &.p-multiselect {
+        &.p-multiselect-chip {
+            .p-multiselect-label {
+                padding: .25rem .25rem;
+            }
+        }
+    }
+}

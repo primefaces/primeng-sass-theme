@@ -1,0 +1,24 @@
+.p-treetable {
+    .p-treetable-tbody {
+        > tr {
+            &:has(+ .p-highlight) {
+                > td {
+                    border-bottom-color: scale-color($highlightBg, $lightness: -10%);
+                }
+            }
+
+            &.p-highlight {
+                > td {
+                    border-bottom-color: scale-color($highlightBg, $lightness: -10%);
+
+                    .p-treetable-toggler {
+                        &:hover {
+                            background-color: $highlightBg;
+                            color: $highlightTextColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

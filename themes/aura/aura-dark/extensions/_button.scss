@@ -1,0 +1,131 @@
+@mixin focused-button-ring($ring-color) {
+    outline-color: $ring-color;
+}
+
+.p-button-label {
+    font-weight: 500;
+}
+
+.p-button {
+    &.p-button-success:enabled:focus-visible {
+        @include focused-button-ring($successButtonBg);
+    }
+
+    &.p-button-info:enabled:focus-visible {
+        @include focused-button-ring($infoButtonBg);
+    }
+
+    &.p-button-warning:enabled:focus-visible {
+        @include focused-button-ring($warningButtonBg);
+    }
+
+    &.p-button-help:enabled:focus-visible {
+        @include focused-button-ring($helpButtonBg);
+    }
+
+    &.p-button-danger:enabled:focus-visible {
+        @include focused-button-ring($dangerButtonBg);
+    }
+
+    &.p-button-contrast:enabled:focus-visible {
+        @include focused-button-ring($contrastButtonBg);
+    }
+
+    &.p-button-outlined {
+        border-color: rgba($primaryColor, 0.44);
+
+        &:not(:disabled):hover,
+        &:not(:disabled):active {
+            border-color: rgba($primaryColor, 0.44);
+        }
+
+        &.p-button-secondary {
+            border-color: rgba(82, 82, 91, 0.48);
+            color: $textSecondaryColor;
+
+            &:not(:disabled):hover {
+                color: $textSecondaryColor;
+                background-color: rgba(255, 255, 255, $textButtonHoverBgOpacity);
+                border-color: rgba(82, 82, 91, 0.48);
+            }
+
+            &:not(:disabled):active {
+                color: $textSecondaryColor;
+                background-color: rgba(255, 255, 255, $textButtonActiveBgOpacity);
+                border-color: rgba(82, 82, 91, 0.48);
+            }
+        }
+
+        &.p-button-success {
+            border-color: rgba(21, 128, 61, 0.44);
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(21, 128, 61, 0.44);
+            }
+        }
+
+        &.p-button-info {
+            border-color: rgba(29, 78, 216, 0.44);
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(29, 78, 216, 0.44);
+            }
+        }
+
+        &.p-button-warning {
+            border-color: rgba(161, 98, 7, 0.44);
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(161, 98, 7, 0.44);
+            }
+        }
+
+        &.p-button-help {
+            border-color: rgba(109, 40, 217, 0.44);;
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(109, 40, 217, 0.44);;
+            }
+        }
+
+        &.p-button-danger {
+            border-color: rgba(185, 28, 28, 0.44);
+
+            ;
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(185, 28, 28, 0.44);
+            }
+        }
+
+        &.p-button-contrast {
+            border-color: rgba(255, 255, 28255, 0.44);;
+
+            &:not(:disabled):hover,
+            &:not(:disabled):active {
+                border-color: rgba(255, 255, 255, 0.44);;
+            }
+        }
+    }
+
+    &.p-button-secondary {
+        &.p-button-text {
+            color: $textSecondaryColor;
+
+            &:not(:disabled):hover {
+                background-color: rgba(255, 255, 255, $textButtonHoverBgOpacity);
+                color: $textSecondaryColor;
+            }
+
+            &:not(:disabled):active {
+                background-color: rgba(255, 255, 255, $textButtonActiveBgOpacity);
+                color: $textSecondaryColor;
+            }
+        }
+    }
+}

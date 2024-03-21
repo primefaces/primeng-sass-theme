@@ -1,0 +1,31 @@
+.p-accordion {
+    .p-accordion-header {
+        .p-accordion-header-link {
+            border-radius: $borderRadius !important;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &:hover {
+                border-bottom-color: $accordionHeaderHoverBorderColor;
+            }
+
+            .p-accordion-toggle-icon {
+                transform: rotate(90deg);
+            }
+        }
+
+        &.p-highlight {
+            .p-accordion-toggle-icon {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    .p-accordion-tab {
+        border-bottom: 1px solid $shade800;
+
+        &:last-child {
+            border-bottom: 0 none;
+        }
+    }
+}
