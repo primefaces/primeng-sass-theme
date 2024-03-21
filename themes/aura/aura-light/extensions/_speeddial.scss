@@ -1,9 +1,0 @@
-.p-speeddial-item {
-    &.p-focus > .p-speeddial-action {
-        @include focused-button-ring(scale-color($buttonBg, $lightness: 50%));
-    }
-}
-
-.p-speeddial-button.p-speeddial-rotate {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, $formElementTransition;
-}
