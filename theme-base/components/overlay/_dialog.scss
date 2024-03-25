@@ -46,9 +46,12 @@
         border-bottom-right-radius: $borderRadius;
         border-bottom-left-radius: $borderRadius;
 
-        button {
+        & > *, p-footer > * {
             margin: 0 $inlineSpacing 0 0;
-            width: auto;
+
+            &:last-child {
+                margin: 0;
+            }
         }
     }
 
