@@ -20,7 +20,7 @@
   "license": "MIT",
   "files": [
     "themes/**/*",
-    "theme-base/**/.*"
+    "theme-base/**/*"
   ],
   "bugs": {
     "url": "https://github.com/primefaces/primeng-sass-theme/issues"
