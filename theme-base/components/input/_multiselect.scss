@@ -129,7 +129,7 @@
             &:not(.p-highlight):not(.p-disabled) {
                 &.p-focus {
                     color: $inputListItemTextFocusColor;
-                    background: $inputListItemFocusBg;
+                    background: $inputListItemHoverBg;
                 }
 
                 &:hover {
