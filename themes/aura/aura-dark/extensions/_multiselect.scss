@@ -30,11 +30,9 @@
 }
 
 .p-inputwrapper-filled {
-    &.p-multiselect {
-        &.p-multiselect-chip {
-            .p-multiselect-label {
-                padding: .25rem .25rem;
-            }
+    .p-multiselect-chip {
+        .p-multiselect-label {
+            padding: .25rem .25rem;
         }
     }
 }
