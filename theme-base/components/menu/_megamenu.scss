@@ -33,6 +33,7 @@
     .p-submenu-list {
         padding: $verticalMenuPadding;
         width: $menuWidth;
+        border-radius: $borderRadius;
 
         .p-menuitem-separator {
             border-top: $divider;
