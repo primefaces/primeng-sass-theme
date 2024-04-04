@@ -4,6 +4,9 @@
     gap: $inlineSpacing;
 
     .p-rating-item {
+        border-radius: 50%;
+        outline-color: transparent;
+
         .p-rating-icon {
             color: $ratingStarIconOffColor;
             transition: $formElementTransition;   
@@ -20,7 +23,7 @@
         }
 
         &.p-focus {
-            @include focused-input();
+            @include focused();
         }
 
         &.p-rating-item-active {
