@@ -2,6 +2,10 @@
     .p-checkbox-box {
         border-radius: 4px;
         box-shadow: $inputShadow;
+
+        &.p-focus {
+            outline-offset: $focusOutlineOffset;
+        }
     }
 
     &:not(.p-disabled) {
