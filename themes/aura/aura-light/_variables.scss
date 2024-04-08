@@ -84,6 +84,7 @@ $inputBg: $shade000 !default;
 $inputTextColor: $textColor !default;
 $inputIconColor: $shade400 !default;
 $inputBorder: 1px solid $shade300 !default;
+$inputChipBorderRadius: 4px !default;
 $inputHoverBorderColor: $shade400 !default;
 $inputFocusBorderColor: $shade400 !default;
 $inputErrorBorderColor: $errorColor !default;
@@ -810,7 +811,7 @@ $avatarTextColor: $shade900 !default;
 //chip
 $chipBg: $shade100 !default;
 $chipTextColor: $shade800 !default;
-$chipBorderRadius: 4px !default;
+$chipBorderRadius: 16px !default;
 $chipFocusBg: $shade200 !default;
 $chipFocusTextColor: $shade900 !default;
 

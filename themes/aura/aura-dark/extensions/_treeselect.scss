@@ -15,4 +15,12 @@
             color: $textSecondaryColor;
         }
     }
+    
+    .p-treeselect-chip {
+        .p-treeselect-label-container {
+            .p-treeselect-token {
+                border-radius: $inputChipBorderRadius;
+            }   
+        }
+    }
 }
