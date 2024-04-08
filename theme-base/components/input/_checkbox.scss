@@ -10,13 +10,14 @@
         color: $textColor;
         border-radius: $borderRadius;
         transition: $formElementTransition;
+        outline-color: transparent;
 
         .p-checkbox-icon {
             transition-duration: $transitionDuration;
             color: $checkboxIconActiveColor;
             font-size: $checkboxIconFontSize;
         }
-        
+
         .p-icon {
             width: $checkboxIconFontSize;
             height: $checkboxIconFontSize;
@@ -38,7 +39,7 @@
                 @include focused-input();
             }
 
-            &.p-highlight:hover {    
+            &.p-highlight:hover {
                 border-color: $checkboxActiveHoverBorderColor;
                 background: $checkboxActiveHoverBg;
                 color: $checkboxIconActiveHoverColor;
@@ -66,8 +67,8 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
                 &:hover {
                     background-color: $inputFilledHoverBg;
                 }
-        
-                &.p-highlight:hover {    
+
+                &.p-highlight:hover {
                     background: $checkboxActiveHoverBg;
                 }
             }
@@ -87,7 +88,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
             }
         }
     }
-} 
+}
 
 p-tristatecheckbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
     @include invalid-input();

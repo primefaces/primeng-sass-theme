@@ -4,25 +4,14 @@
 
         &.p-focus {
             outline-offset: $focusOutlineOffset;
-        }
-    }
-    
-    &:not(.p-disabled) {
-        &:has(.p-radiobutton-input:focus-visible) {
-            .p-radiobutton-box {
-                outline-width: 1px;
-                outline-offset: $focusOutlineOffset;
-            }
 
             &.p-highlight {
-                .p-radiobutton-box {
-                    border-color: $checkboxActiveBg;
-                }
+                border-color: $checkboxActiveBorderColor;
             }
         }
     }
 
-    &.p-disabled {
+    &.p-radiobutton-disabled {
         opacity: 1;
         .p-radiobutton-box {
             border: $inputBorder;

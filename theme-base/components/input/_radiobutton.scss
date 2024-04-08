@@ -10,6 +10,7 @@
         color: $textColor;
         border-radius: 50%;
         transition: $formElementTransition;
+        outline-color: transparent;
 
         &:not(.p-disabled):not(.p-highlight):hover {
             border-color: $inputHoverBorderColor;
@@ -54,7 +55,7 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 
             &.p-highlight {
                 background: $radiobuttonActiveBg;
-    
+
                 &:not(.p-disabled):hover {
                     background: $radiobuttonActiveHoverBg;
                 }

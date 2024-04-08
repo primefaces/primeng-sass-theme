@@ -5,25 +5,14 @@
 
         &.p-focus {
             outline-offset: $focusOutlineOffset;
-        }
-    }
-
-    &:not(.p-disabled) {
-        &:has(.p-checkbox-input:focus-visible) {
-            .p-checkbox-box {
-                outline-width: 1px;
-                outline-offset: $focusOutlineOffset;
-            }
 
             &.p-highlight {
-                .p-checkbox-box {
-                    border-color: $checkboxActiveBg;
-                }
+                border-color: $checkboxActiveBorderColor;
             }
         }
     }
 
-    &.p-disabled {
+    &.p-checkbox-disabled {
         opacity: 1;
 
         .p-checkbox-box {
