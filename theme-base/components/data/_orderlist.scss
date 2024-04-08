@@ -59,6 +59,10 @@
 			background: $inputListItemBg;
 			transition: $listItemTransition;
 
+            &:first-child {
+                margin-top: 0;
+            }
+            
 			&:not(.p-highlight):hover {
 				background: $inputListItemHoverBg;
 				color: $inputListItemTextHoverColor;
