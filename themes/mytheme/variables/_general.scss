@@ -90,6 +90,10 @@ $focusOutline: 0 none;
 /// @group general
 $focusOutlineOffset: 0;
 
+/// Outline color of a focused input element
+/// @group general
+$inputFocusOutlineOffset: $focusOutlineOffset;
+
 /// Box shadow of a focused element
 /// @group general
 $focusShadow: 0 0 0 0.2rem $focusOutlineColor;
