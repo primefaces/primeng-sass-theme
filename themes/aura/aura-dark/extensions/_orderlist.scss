@@ -32,5 +32,9 @@
         &:not(:first-child) {
             border: 0 none;
         }
-    } 
+    }
+    
+    .p-orderlist-filter-container {
+        border: 0 none;
+    }
 }
