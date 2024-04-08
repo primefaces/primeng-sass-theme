@@ -216,3 +216,30 @@
         }
     }
 }
+
+.p-button.p-button-contrast,
+.p-button-group.p-button-contrast > .p-button,
+.p-splitbutton.p-button-contrast > .p-button {
+    &:enabled:focus {
+        background: rgba($contrastButtonBg, 0.76);
+    }
+
+    &:enabled:active {
+        background: rgba($contrastButtonBg, 0.68);
+    }
+
+    &.p-button-text,
+    &.p-button-outlined {
+        &:enabled:focus {
+            background: rgba($contrastButtonBg, 0.12);
+        }
+
+        &:enabled:active {
+            background: rgba($contrastButtonBg, 0.16);
+        }
+
+        .p-ink {
+            background-color: rgba($contrastButtonBg, 0.16);
+        }
+    }
+}
