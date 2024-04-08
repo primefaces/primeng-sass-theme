@@ -1,6 +1,10 @@
 .p-radiobutton {
     .p-radiobutton-box {
         box-shadow: $inputShadow;
+
+        &.p-focus {
+            outline-offset: $focusOutlineOffset;
+        }
     }
     
     &:not(.p-disabled) {

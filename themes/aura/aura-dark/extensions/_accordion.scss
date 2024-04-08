@@ -19,12 +19,25 @@
                 transform: rotate(-180deg);
             }
         }
+
+
+        &:not(.p-disabled) {
+            .p-accordion-header-link {
+                &:focus-visible {
+                    outline-offset: -2px;
+                }
+            }
+        }
     }
 
-    .p-accordion-tab {
-        border-bottom: 1px solid $shade800;
+    p-accordiontab {
+        .p-accordion-tab {
+            border-bottom: 1px solid $shade800;
+        }
+    }
 
-        &:last-child {
+    p-accordiontab:last-of-type {
+        .p-accordion-tab {
             border-bottom: 0 none;
         }
     }

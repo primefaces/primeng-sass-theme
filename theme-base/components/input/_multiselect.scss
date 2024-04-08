@@ -117,6 +117,10 @@
             transition: $listItemTransition;
             border-radius: $inputListItemBorderRadius;
 
+            &:first-child {
+                margin-top: 0;
+            }
+
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
@@ -129,7 +133,7 @@
             &:not(.p-highlight):not(.p-disabled) {
                 &.p-focus {
                     color: $inputListItemTextFocusColor;
-                    background: $inputListItemFocusBg;
+                    background: $inputListItemHoverBg;
                 }
 
                 &:hover {

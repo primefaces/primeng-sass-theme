@@ -1,5 +1,15 @@
 .p-togglebutton {
-    .p-button {
+    &.p-button {
+        padding: 0.25rem;
+
+        .p-button-label {
+            padding: 0.25rem 0.5rem;
+        }
+
+        .p-button-icon {
+            padding: 0.35rem 0.25rem;
+        }
+
         .p-button-label,
         .p-button-icon {
             position: relative;
@@ -29,13 +39,51 @@
         }
     }
 
+    &.p-highlight {
+        .p-button-label {
+            background: $shade000;
+            border-color: $shade000;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
+            border-radius:4px;
+        }
+
+        &:has(.p-button-icon) {
+            .p-button-icon {
+                margin-right: 0;
+                background: $shade000;
+                box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.02), -2px 2px 2px 0px rgba(0, 0, 0, 0.04);
+                border: none;
+                border-radius: 4px 0px 0px 4px;
+            }
+            
+            .p-button-label {
+                background: $shade000;
+                box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.02), 2px 2px 2px 0px rgba(0, 0, 0, 0.04);
+                border-radius: 0px 4px 4px 0px;
+            }
+            
+        }
+    }
+
+    &:has(:not(.p-highlight)) {
+        &:has(.p-button-icon) {
+            .p-button-icon {
+                margin-right: 0;
+                border: none;
+                border-radius: 4px 0px 0px 4px;
+            }
+
+            .p-button-label {
+                border-radius: 0px 4px 4px 0px;
+            }
+        }
+    }
+
     &.p-disabled {
         opacity: 1;
-        .p-button {
+        color: $shade400;
+        .p-button-icon {
             color: $shade400;
-            .p-button-icon {
-                color: $shade400;
-            }
         }
     }
 }

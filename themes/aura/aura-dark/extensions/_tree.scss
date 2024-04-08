@@ -12,6 +12,7 @@
 
             .p-treenode-content {
                 &.p-highlight {
+                    background: none;
                     .p-tree-toggler {
                         &:hover {
                             background-color: $highlightBg;

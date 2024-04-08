@@ -17,6 +17,10 @@
         border-top-left-radius: $borderRadius;
     }
 
+    .p-picklist-filter-container {
+        border: 0;
+    }
+
     .p-picklist-list {
         border: $inputListBorder;
         border: 0 none;
