@@ -1,4 +1,12 @@
 # Changelog
+## [17.13.0](https://github.com/primefaces/primeng-sass-theme/tree/17.13.0) (2024-04-09)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.12.0...17.13.0)
+
+**Implemented New Features and Enhancements:**
+- New Theme | Aura [\#110](https://github.com/primefaces/primeng-sass-theme/issues/110)
+- Stepper [\#114](https://github.com/primefaces/primeng-sass-theme/issues/114)
+- Stepper: number element box-shadow defect [\#109](https://github.com/primefaces/primeng-sass-theme/issues/109)
+
 ## [17.12.0](https://github.com/primefaces/primeng-sass-theme/tree/17.12.0) (2024-03-21)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.11.0...17.12.0)
 
