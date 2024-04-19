@@ -6,15 +6,14 @@
             .p-toast-detail {
                 font-size: 0.875rem;
             }
+
+            .p-toast-icon-close {
+                width: 1.75rem;
+                height: 1.75rem;
+                position: relative;
+            }
         }
 
-        .p-toast-icon-close {
-            width: 1.75rem;
-            height: 1.75rem;
-            margin-top: -25%;
-            right: -25%;
-            position: relative;
-        }
     }
 }
 
