@@ -1,4 +1,11 @@
 # Changelog
+## [17.14.0](https://github.com/primefaces/primeng-sass-theme/tree/17.14.0) (2024-04-19)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.12.0...17.13.0)
+
+**Fixed bugs:**
+- Stepper CSS different from primeng project (v17.13.0) [\#121](https://github.com/primefaces/primeng-sass-theme/issues/121)
+- Toast | Close icon is not visible (Aura) [\#124](https://github.com/primefaces/primeng-sass-theme/issues/124)
+
 ## [17.13.0](https://github.com/primefaces/primeng-sass-theme/tree/17.13.0) (2024-04-09)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.12.0...17.13.0)
 
