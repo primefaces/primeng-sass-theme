@@ -1,6 +1,6 @@
 # Changelog
 ## [17.14.0](https://github.com/primefaces/primeng-sass-theme/tree/17.14.0) (2024-04-19)
-[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.12.0...17.13.0)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.13.0...17.14.0)
 
 **Fixed bugs:**
 - Stepper CSS different from primeng project (v17.13.0) [\#121](https://github.com/primefaces/primeng-sass-theme/issues/121)
