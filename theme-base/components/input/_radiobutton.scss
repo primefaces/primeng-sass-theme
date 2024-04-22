@@ -38,6 +38,24 @@
             }
         }
     }
+
+    &.p-variant-filled {
+        .p-radiobutton-box {
+            background-color: $inputFilledBg;
+
+            &:not(.p-disabled):hover {
+                background-color: $inputFilledHoverBg;
+            }
+
+            &.p-highlight {
+                background: $radiobuttonActiveBg;
+
+                &:not(.p-disabled):hover {
+                    background: $radiobuttonActiveHoverBg;
+                }
+            }
+        }
+    }
 }
 
 p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
