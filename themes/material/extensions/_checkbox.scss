@@ -51,13 +51,11 @@
             box-shadow: 0 0 1px 10px rgba($checkboxActiveBg, .12);
         }
     }
-}
 
-.p-input-filled {
-    .p-checkbox {
+    &.p-variant-filled {
         .p-checkbox-box {
             background-color: $inputBg;
-
+    
             &:not(.p-disabled):hover {
                 background-color: $inputBg;
             }
