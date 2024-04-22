@@ -46,14 +46,8 @@
             }
         }
     }
-}
 
-p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
-    @include invalid-input();
-}
-
-.p-input-filled {
-    .p-checkbox {
+    &.p-variant-filled {
         .p-checkbox-box {
             background-color: $inputFilledBg;
 
@@ -74,6 +68,10 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
             }
         }
     }
+}
+
+p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
+    @include invalid-input();
 }
 
 .p-checkbox-label {
