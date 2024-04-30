@@ -14,3 +14,17 @@ p-inputmask.p-inputmask-clearable {
         right: nth($inputPadding, 2);
     }
 }
+
+.p-inputmask {
+    &.p-variant-filled {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
+}
