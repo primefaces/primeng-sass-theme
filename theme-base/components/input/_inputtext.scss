@@ -22,6 +22,18 @@
         @include invalid-input();
     }
 
+    &.p-variant-filled {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
+
     &.p-inputtext-sm {
         @include scaledFontSize($inputTextFontSize, $scaleSM);
         @include scaledPadding($inputPadding, $scaleSM);

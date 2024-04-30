@@ -49,6 +49,18 @@
     &.p-invalid.p-component {
         @include invalid-input();
     }
+
+    &.p-variant-filled {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
 }
 
 .p-dropdown-panel {

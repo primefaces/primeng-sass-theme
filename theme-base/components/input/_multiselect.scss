@@ -45,6 +45,17 @@
         border-bottom-right-radius: $borderRadius;
     }
 
+    &.p-variant-filled {
+        background: $inputFilledBg;
+
+        &:not(.p-disabled):hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:not(.p-disabled).p-focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
 }
 
 .p-inputwrapper-filled {

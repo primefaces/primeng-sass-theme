@@ -26,3 +26,17 @@ p-inputnumber.p-inputnumber-clearable {
         }
     }
 }
+
+p-inputnumber.p-inputnumber {
+    &.p-variant-filled > .p-inputnumber-input {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
+}

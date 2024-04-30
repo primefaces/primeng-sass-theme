@@ -40,6 +40,18 @@
         border-top-right-radius: $borderRadius;
         border-bottom-right-radius: $borderRadius;
     }
+
+    &.p-variant-filled {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
+    }
 }
 
 p-treeselect.ng-invalid.ng-dirty > .p-treeselect {

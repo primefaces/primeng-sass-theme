@@ -46,6 +46,28 @@
             }
         }
     }
+
+    &.p-variant-filled {
+        .p-checkbox-box {
+            background-color: $inputFilledBg;
+
+            &.p-highlight {
+                background: $checkboxActiveBg;
+            }
+        }
+
+        &:not(.p-checkbox-disabled) {
+            .p-checkbox-box {
+                &:hover {
+                    background-color: $inputFilledHoverBg;
+                }
+
+                &.p-highlight:hover {
+                    background: $checkboxActiveHoverBg;
+                }
+            }
+        }
+    }
 }
 
 p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
@@ -61,13 +83,11 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
                 background: $checkboxActiveBg;
             }
         }
-
         &:not(.p-checkbox-disabled) {
             .p-checkbox-box {
                 &:hover {
                     background-color: $inputFilledHoverBg;
                 }
-
                 &.p-highlight:hover {
                     background: $checkboxActiveHoverBg;
                 }

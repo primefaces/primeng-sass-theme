@@ -115,6 +115,28 @@
                             color: $textColor;
                         }
                     }
+
+                    &.p-variant-filled {
+                        .p-checkbox-box {
+                            background-color: $inputFilledBg;
+                
+                            &.p-highlight {
+                                background: $checkboxActiveBg;
+                            }
+                        }
+                
+                        &:not(.p-disabled) {
+                            .p-checkbox-box {
+                                &:hover {
+                                    background-color: $inputFilledHoverBg;
+                                }
+                
+                                &.p-highlight:hover {
+                                    background: $checkboxActiveHoverBg;
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
