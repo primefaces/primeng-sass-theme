@@ -1,6 +1,6 @@
 # Changelog
-## [17.15.0](https://github.com/primefaces/primeng-sass-theme/tree/17.15.0) (2024-04-26)
-[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.14.1...17.15.0)
+## [17.16.0](https://github.com/primefaces/primeng-sass-theme/tree/17.16.0) (2024-04-26)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.15.0...17.16.0)
 
 **Fixed bugs:**
 - p-multiselect jumps in height because chips padding is not applied correctly [\#93](https://github.com/primefaces/primeng-sass-theme/issues/93)
