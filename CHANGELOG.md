@@ -1,5 +1,5 @@
 # Changelog
-## [17.16.0](https://github.com/primefaces/primeng-sass-theme/tree/17.16.0) (2024-04-26)
+## [17.16.0](https://github.com/primefaces/primeng-sass-theme/tree/17.16.0) (2024-05-03)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.15.0...17.16.0)
 
 **Fixed bugs:**
