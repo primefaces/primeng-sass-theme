@@ -2,6 +2,14 @@
 ## [17.15.0](https://github.com/primefaces/primeng-sass-theme/tree/17.15.0) (2024-04-26)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.14.1...17.15.0)
 
+**Fixed bugs:**
+- p-multiselect jumps in height because chips padding is not applied correctly [\#93](https://github.com/primefaces/primeng-sass-theme/issues/93)
+- incorrect styles for vertical slider [\#51](https://github.com/primefaces/primeng-sass-theme/issues/51)
+- Add filled styles for inputs [\#125](https://github.com/primefaces/primeng-sass-theme/issues/125)
+
+## [17.15.0](https://github.com/primefaces/primeng-sass-theme/tree/17.15.0) (2024-04-26)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.14.1...17.15.0)
+
 - No changes, provides semantic versioning compatibility for PrimeNG 17.15.0
 
 ## [17.14.1](https://github.com/primefaces/primeng-sass-theme/tree/17.14.1) (2024-04-09)
