@@ -214,6 +214,17 @@ $dangerButtonTextActiveColor: $dangerButtonTextColor !default;
 $dangerButtonActiveBorderColor: #b91c1c !default;
 $dangerButtonFocusShadow: 0 0 0 0.2rem #fecaca !default;
 
+$contrastButtonBg:$shade900 !default;
+$contrastButtonTextColor:#ffffff !default;
+$contrastButtonBorder:1px solid $contrastButtonBg !default;
+$contrastButtonHoverBg:$shade800 !default;
+$contrastButtonTextHoverColor:$contrastButtonTextColor !default;
+$contrastButtonHoverBorderColor:$shade800 !default;
+$contrastButtonActiveBg:$shade700 !default;
+$contrastButtonTextActiveColor:$contrastButtonTextColor !default;
+$contrastButtonActiveBorderColor:$shade700 !default;
+$contrastButtonFocusShadow:none !default;
+
 $linkButtonColor: $primaryDarkerColor !default;
 $linkButtonHoverColor: $primaryDarkerColor !default;
 $linkButtonTextHoverDecoration: underline !default;
@@ -595,6 +606,14 @@ $errorMessageBg: rgba(255, 231, 230, 0.7) !default;
 $errorMessageBorder: solid #ff5757 !default;
 $errorMessageTextColor: #ff5757 !default;
 $errorMessageIconColor: #ff5757 !default;
+$secondaryMessageBg:$secondaryButtonBg !default;
+$secondaryMessageBorder: solid $secondaryButtonBg !default;
+$secondaryMessageTextColor: $secondaryButtonTextColor !default;
+$secondaryMessageIconColor: $secondaryButtonTextColor !default;
+$contrastMessageBg: $contrastButtonBg !default;
+$contrastMessageBorder: solid $contrastButtonBg !default;
+$contrastMessageTextColor: $contrastButtonTextColor !default;
+$contrastMessageIconColor: $contrastButtonTextColor !default;
 
 //overlays
 $overlayContentBorder: 0 none !default;
