@@ -609,6 +609,15 @@ $errorMessageBorder: solid #ef4444 !default;
 $errorMessageTextColor: #fca5a5 !default;
 $errorMessageIconColor: #fca5a5 !default;
 
+$secondaryMessageBg: $secondaryButtonBg !default;
+$secondaryMessageBorder: solid $secondaryButtonBg !default;
+$secondaryMessageTextColor: $secondaryButtonTextColor !default;
+$secondaryMessageIconColor: $secondaryButtonTextColor !default;
+$contrastMessageBg: $contrastButtonBg !default;
+$contrastMessageBorder: solid $contrastButtonBg !default;
+$contrastMessageTextColor: $contrastButtonTextColor !default;
+$contrastMessageIconColor: $contrastButtonTextColor !default;
+
 //overlays
 $overlayContentBorder: 1px solid $shade600 !default;
 $overlayContentBg: $panelContentBg !default;
