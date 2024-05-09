@@ -7,9 +7,16 @@
     height: $badgeHeight;
     line-height: $badgeHeight;
 
-    &.p-badge-secondary {
-        background-color: $secondaryButtonBg;
-        color: $secondaryButtonTextColor;
+    @if variable-exists(secondaryMessageBg) {
+        &.p-badge-secondary {
+            background-color: $secondaryButtonBg;
+            color: $secondaryButtonTextColor;
+        }
+    
+        &.p-badge-contrast {
+            background-color: $contrastButtonBg;
+            color: $contrastButtonTextColor;
+        }
     }
 
     &.p-badge-success {
