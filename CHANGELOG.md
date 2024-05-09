@@ -1,4 +1,12 @@
 # Changelog
+
+## [17.16.1](https://github.com/primefaces/primeng-sass-theme/tree/17.16.1) (2024-05-09)
+[Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.16.0...17.16.1)
+
+**Enhancements:**
+- Badge | Add severity styles [\#132](https://github.com/primefaces/primeng-sass-theme/issues/132)
+- Tag, Message, Toast | Add contrast severity styles [\#130](https://github.com/primefaces/primeng-sass-theme/issues/130)
+
 ## [17.16.0](https://github.com/primefaces/primeng-sass-theme/tree/17.16.0) (2024-05-03)
 [Full Changelog](https://github.com/primefaces/primeng-sass-theme/compare/17.15.0...17.16.0)
 
