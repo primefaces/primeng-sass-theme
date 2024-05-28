@@ -2,17 +2,24 @@
     .p-checkbox-box {
         border-radius: 4px;
         box-shadow: $inputShadow;
+    }
 
-        &.p-focus {
-            outline-offset: $focusOutlineOffset;
+    &:not(.p-disabled) {
+        &:has(.p-checkbox-input:focus-visible) {
+            .p-checkbox-box {
+                outline-width: 1px;
+                outline-offset: $focusOutlineOffset;
+            }
 
             &.p-highlight {
-                border-color: $checkboxActiveBorderColor;
+                .p-checkbox-box {
+                    border-color: $checkboxActiveBg;
+                }
             }
         }
     }
 
-    &.p-checkbox-disabled {
+    &.p-disabled {
         opacity: 1;
 
         .p-checkbox-box {
