@@ -33,6 +33,12 @@
             border-bottom-right-radius: $borderRadius;
             border-bottom-left-radius: $borderRadius;
         }
+
+        &:first-child {
+            border-top-right-radius: $borderRadius;
+            border-top-left-radius: $borderRadius;
+            border-top: $panelContentBorder;
+        }
     }
 
     .p-panel-footer {
