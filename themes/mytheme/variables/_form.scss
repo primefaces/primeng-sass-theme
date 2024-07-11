@@ -78,47 +78,47 @@ $inputListBorder: $inputBorder;
 /// @group form
 $inputListPadding: .5rem 0;
 
-/// Padding for an individual itrem of an input list
+/// Padding for an individual item of an input list
 /// @group form
 $inputListItemPadding: .5rem 1rem;
 
-/// Background for an individual itrem of an input list
+/// Background for an individual item of an input list
 /// @group form
 $inputListItemBg: transparent;
 
-/// Text color for an individual itrem of an input list
+/// Text color for an individual item of an input list
 /// @group form
 $inputListItemTextColor: $textColor;
 
-/// Hover state background for an individual itrem of an input list
+/// Hover state background for an individual item of an input list
 /// @group form
 $inputListItemHoverBg: #e9ecef;
 
-/// Hover state text color for an individual itrem of an input list
+/// Hover state text color for an individual item of an input list
 /// @group form
 $inputListItemTextHoverColor: $textColor;
 
-/// Focus state background for an individual itrem of an input list
+/// Focus state background for an individual item of an input list
 /// @group form
 $inputListItemFocusBg: #f8f9fa;
 
-/// Focus state text color for an individual itrem of an input list
+/// Focus state text color for an individual item of an input list
 /// @group form
 $inputListItemTextFocusColor: $textColor;
 
-/// Border for an individual itrem of an input list
+/// Border for an individual item of an input list
 /// @group form
 $inputListItemBorder: 0 none;
 
-/// Border radius for an individual itrem of an input list
+/// Border radius for an individual item of an input list
 /// @group form
 $inputListItemBorderRadius: 0;
 
-/// Margin for an individual itrem of an input list
+/// Margin for an individual item of an input list
 /// @group form
 $inputListItemMargin: 0;
 
-/// Box shadow for an individual itrem of an input list in focused state
+/// Box shadow for an individual item of an input list in focused state
 /// @group form
 $inputListItemFocusShadow: inset 0 0 0 0.15rem $focusOutlineColor;
 
