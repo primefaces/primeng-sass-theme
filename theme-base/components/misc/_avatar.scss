@@ -21,6 +21,11 @@
             font-size: 2rem;
         }
     }
+
+    .p-avatar-text,
+    .p-avatar-icon {
+        color: $avatarTextColor;
+    }
 }
 
 .p-avatar-group {
