@@ -366,7 +366,7 @@
     color: $warningButtonTextColor;
     background: $warningButtonBg;
     border: $warningButtonBorder;
-    
+
     &:not(:disabled):hover {
         background: $warningButtonHoverBg;
         color: $warningButtonTextHoverColor;

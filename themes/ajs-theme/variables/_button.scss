@@ -66,7 +66,7 @@ $textButtonActiveBgOpacity: .16;
 
 /// Border style of a outlined button
 /// @group button
-$outlinedButtonBorder: 1px solid;
+$outlinedButtonBorder: none;
 
 /// Text color of a plain text button
 /// @group button
@@ -170,7 +170,7 @@ $warningButtonTextColor: $textColor;
 
 /// Border of a warning button
 /// @group button
-$warningButtonBorder: 1px solid $warningButtonBg;
+$warningButtonBorder: none;
 
 /// Text color of a warning button in hover state
 /// @group button
