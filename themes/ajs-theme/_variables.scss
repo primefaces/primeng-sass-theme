@@ -1,0 +1,142 @@
+@use 'sass:color';
+
+// Theme Specific Variables
+$brand-primary: #171796;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
+$textColor: #495057;
+$errorColor: #e4677e;
+
+$primaryColor: $brand-primary;
+$primaryDarkColor: color.adjust($primaryColor, $lightness: -5%);
+$primaryDarkerColor: color.adjust($primaryColor, $lightness: -10%);
+$primaryTextColor: #ffffff;
+
+$textSecondaryColor: #6c757d;
+
+$secondaryButtonActiveBg: #ffffff;
+$secondaryButtonTextColor: #333333;
+$secondaryButtonHoverBg: color.adjust($secondaryButtonActiveBg, $lightness: -5%);
+$secondaryButtonBorder: 1px solid #cccccc;
+$secondaryButtonFocusShadowColor: color.adjust(#cccccc, $lightness: -5%);
+
+$successButtonBg: $brand-success;
+$successButtonHoverBg: color.adjust($successButtonBg, $lightness: -5%);
+$successButtonActiveBg: color.adjust($successButtonBg, $lightness: -5%);
+
+$infoButtonBg: $brand-info;
+$infoButtonActiveBg: color.adjust($infoButtonBg, $lightness: -5%);
+$infoMessageBorderColor: color.adjust($infoButtonBg, $lightness: -5%);
+
+$helpButtonBg: $brand-info;
+$helpButtonHoverBg: color.adjust($helpButtonBg, $lightness: -5%);
+$helpButtonActiveBg: color.adjust($helpButtonBg, $lightness: -5%);
+$helpButtonFocusShadowColor: color.adjust($helpButtonBg, $lightness: -10%);
+
+$warningButtonBg: $brand-warning;
+$warningButtonHoverBg: color.adjust($warningButtonBg, $lightness: -5%);
+$warningButtonActiveBg: color.adjust($warningButtonBg, $lightness: -5%);
+
+$dangerButtonBg: $brand-danger;
+$dangerButtonHoverBg: color.adjust($dangerButtonBg, $lightness: -5%);
+$dangerButtonActiveBg: color.adjust($dangerButtonBg, $lightness: -5%);
+
+$speedDialActionHoverBg: #343a40;
+
+$panelContentBorderColor: #dee2;
+$plainButtonActiveBgColor: #dee2e6;
+
+$tableBodyRowEvenBg: #eeeeee;
+
+$highlightBg: #e9ecef;
+$infoMessageBg: #039BE5;
+
+$toggleButtonBorderColor: #ced4da;
+
+$focusOutlineColor: #bfd1f6;
+$surfaceGroundColor: #f8f9fa;
+
+$colorPickerBg: #323232;
+$colorPickerBorderColor: #191919;
+
+$ratingCancelIconColor: #e74c3c;
+$ratingCancelIconHoverColor: #c0392b;
+$inputSwitchSliderOffHoverBg: #c3cad2;
+
+$galleriaCaptionTextColor: #ebedef;
+$galleriaItemNavigatorColor: #aeb6bf;
+
+$stepsItemBorderColor: #c8c8c8;
+
+$tabviewHeaderHoverBorderColor: #9ba2aa;
+
+$colors: ( 
+    "blue": #2196F3,
+    "green": $successButtonBg,
+    "yellow": #FBC02D,
+    "cyan": #00BCD4,
+    "pink": #E91E63,
+    "indigo": #3F51B5,
+    "teal": #009688,
+    "orange": #F57C00,
+    "bluegray": #607D8B,
+    "purple": $helpButtonBg,
+    "red": #FF4032,
+    "primary": $primaryColor
+);
+
+// Mandatory Designer Variables
+@import './variables/general';
+@import './variables/form';
+@import './variables/button';
+@import './variables/panel';
+@import './variables/_data';
+@import './variables/_fileupload';
+@import './variables/_overlay';
+@import './variables/_message';
+@import './variables/_menu';
+@import './variables/_media';
+@import './variables/_misc';
+
+:root {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --surface-a: #{$primaryTextColor};
+    --surface-b: #{$surfaceGroundColor};
+    --surface-c: #{$highlightBg};
+    --surface-d: #{$plainButtonActiveBgColor};
+    --surface-e: #{$primaryTextColor};
+    --surface-f: #{$primaryTextColor};
+    --text-color: #{$textColor};
+    --text-color-secondary: #{$textSecondaryColor};
+    --primary-color: #{$primaryColor};
+    --primary-color-text: #{$primaryTextColor};
+    --surface-0: #{$primaryTextColor};
+    --surface-50: #FAFAFA;
+    --surface-100: #F5F5F5;
+    --surface-200: #EEEEEE;
+    --surface-300: #E0E0E0;
+    --surface-400: #BDBDBD;
+    --surface-500: #9E9E9E;
+    --surface-600: #757575;
+    --surface-700: #616161;
+    --surface-800: #424242;
+    --surface-900: #212121;
+    --content-padding: #{$panelContentPadding};
+    --inline-spacing: #{$inlineSpacing};
+    --border-radius: #{$borderRadius};
+    --surface-ground: #{$surfaceGroundColor};
+    --surface-section: #{$primaryTextColor};
+    --surface-card: #{$primaryTextColor};
+    --surface-overlay: #{$primaryTextColor};
+    --surface-border: #{$plainButtonActiveBgColor};
+    --surface-hover: #{$highlightBg};
+    --maskbg: #{$maskBg};
+    --highlight-bg: #{$highlightBg};
+    --highlight-text-color: #{$highlightTextColor};
+    --focus-ring: #{$focusShadow};
+    color-scheme: light;
+}

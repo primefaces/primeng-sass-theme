@@ -1,0 +1,32 @@
+.p-datatable {
+  .p-paginator.p-component {
+    background: transparent;
+
+    button.p-paginator-element {
+      background: var(--surface-0);
+      margin: 0;
+      border: thin solid var(--surface-300);
+
+      &.p-highlight {
+        background: var(--primary-color);
+        color: var(--primary-color-text);
+      }
+    }
+
+    .p-paginator-page-input {
+      margin-right: 0;
+
+      input.p-inputnumber-input {
+        padding: 0.374rem 0;
+        text-align: center;
+      }
+    }
+
+    .p-paginator-rpp-options {
+      .p-dropdown-label {
+        padding-top: 0.374rem;
+        padding-bottom: 0.374rem;
+      }
+    }
+  }
+}

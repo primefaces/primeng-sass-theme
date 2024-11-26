@@ -1,0 +1,134 @@
+/* Customizations to the designer theme should be defined here */
+
+@use "extensions/table";
+
+menuitem-link {
+	-webkit-user-select: none;
+}
+
+menuitem {
+	> .p-menuitem-content {
+		.p-menuitem-link {
+			-webkit-user-select: none;
+		}
+	}
+}
+
+horizontal-rootmenuitem-link {
+	-webkit-user-select: none;
+}
+
+horizontal-rootmenuitem {
+	> .p-menuitem-content {
+		.p-menuitem-link {
+			-webkit-user-select: none;
+		}
+	}
+}
+
+.p-accordion {
+	.p-accordion-header {
+		&:not(.p-highlight):not(.p-disabled):hover {
+			.p-accordion-header-link {
+				border: 1px solid;
+			}
+		}
+	}
+}
+
+.p-button {
+	color: $buttonTextColor !important;
+}
+
+.p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
+	color: $secondaryButtonTextColor !important;
+
+	&:not(:disabled):active {
+		color: $secondaryButtonTextActiveColor !important;
+	}
+}
+
+.p-cascadeselect {
+	.p-cascadeselect-label {
+		&.p-placeholder {
+			text-transform: none;
+		}
+	}
+}
+
+.p-dropdown {
+	.p-dropdown-label {
+		&.p-placeholder {
+			text-transform: none;
+		}
+	}
+}
+
+.p-fileupload .p-fileupload-content.p-fileupload-highlight {
+	border: 1px dashed;
+}
+
+.p-multiselect {
+	.p-multiselect-label {
+		&.p-placeholder {
+			text-transform: none;
+		}
+	}
+}
+
+.p-panelmenu {
+	.p-panelmenu-header {
+		&:not(.p-highlight):not(.p-disabled):hover {
+			.p-panelmenu-header-content {
+				border: 1px solid;
+			}
+		}
+	}
+}
+
+.p-tooltip {
+	font-size: 9pt;
+
+	.p-tooltip-text {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+}
+
+.p-treeselect {
+	.p-treeselect-label {
+		&.p-placeholder {
+			text-transform: none;
+		}
+	}
+}
+
+.p-fieldset .p-fieldset-legend {
+	border: none;
+	background: none;
+
+	a {
+		font-size: 1.2rem
+	}
+}
+
+.p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
+	background: none
+}
+
+.p-element:focus {
+	outline: none;
+}
+
+.p-inputgroup {
+	.p-dropdown .p-overlay .p-dropdown-header .p-dropdown-filter-container input {
+		width: 100%
+	}
+}
+
+.formgroup-inline .field {
+	margin-right: unset;
+}
+.p-datepicker-calendar-container th {
+	text-align: center;
+}
+ 
