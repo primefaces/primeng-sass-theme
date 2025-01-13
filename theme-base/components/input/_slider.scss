@@ -21,8 +21,8 @@
         .p-slider-handle {
             height: $sliderHandleWidth;
             width: $sliderHandleHeight;
-            margin-left: math.div(-1 * $sliderHandleWidth, 2);
-            margin-bottom: math.div(-1 * $sliderHandleHeight, 2);
+            margin-left: math.div(-1 * $sliderHandleHeight, 2);
+            margin-bottom: math.div(-1 * $sliderHandleWidth, 2);
         }
     }
 
