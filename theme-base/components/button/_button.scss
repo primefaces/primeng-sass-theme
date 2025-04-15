@@ -179,7 +179,7 @@
         width: $buttonIconOnlyWidth;
     }
 
-    .p-button-group {
+    .p-button-group, .p-buttonset {
         display: flex;
         
         .p-button {
@@ -188,7 +188,7 @@
     }
 }
 
-.p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
+.p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
     color: $secondaryButtonTextColor;
     background: $secondaryButtonBg;
     border: $secondaryButtonBorder;
@@ -246,7 +246,7 @@
     }
 }
 
-.p-button.p-button-info, .p-button-group.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
+.p-button.p-button-info, .p-button-group.p-button-info > .p-button, .p-buttonset.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
     color: $infoButtonTextColor;
     background: $infoButtonBg;
     border: $infoButtonBorder;
@@ -304,7 +304,7 @@
     }
 }
 
-.p-button.p-button-success, .p-button-group.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
+.p-button.p-button-success, .p-button-group.p-button-success > .p-button, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
     color: $successButtonTextColor;
     background: $successButtonBg;
     border: $successButtonBorder;
@@ -362,7 +362,7 @@
     }
 }
 
-.p-button.p-button-warning, .p-button-group.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
+.p-button.p-button-warning, .p-button-group.p-button-warning > .p-button, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
     color: $warningButtonTextColor;
     background: $warningButtonBg;
     border: $warningButtonBorder;
@@ -420,7 +420,7 @@
     }
 }
 
-.p-button.p-button-help, .p-button-group.p-button-help > .p-button, .p-splitbutton.p-button-help > .p-button {
+.p-button.p-button-help, .p-button-group.p-button-help > .p-button, .p-buttonset.p-button-help > .p-button, .p-splitbutton.p-button-help > .p-button {
     color: $helpButtonTextColor;
     background: $helpButtonBg;
     border: $helpButtonBorder;
@@ -478,7 +478,7 @@
     }
 }
 
-.p-button.p-button-danger, .p-button-group.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button {
+.p-button.p-button-danger, .p-button-group.p-button-danger > .p-button, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button {
     color: $dangerButtonTextColor;
     background: $dangerButtonBg;
     border: $dangerButtonBorder;
@@ -537,7 +537,7 @@
 }
 
 @if variable-exists(contrastButtonTextColor) {
-    .p-button.p-button-contrast, .p-button-group.p-button-contrast > .p-button, .p-splitbutton.p-button-contrast > .p-button {
+    .p-button.p-button-contrast, .p-button-group.p-button-contrast > .p-button, .p-buttonwset.p-button-contrast > .p-button, .p-splitbutton.p-button-contrast > .p-button {
         color: $contrastButtonTextColor;
         background: $contrastButtonBg;
         border: $contrastButtonBorder;
